@@ -1,9 +1,483 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T07:18:31.791Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ZhH1Tg2OXzG_5SbZUsxg" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T09:32:02.158Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="MovnnmxVzC6f3QD-s_jJ" version="21.0.8" type="github">
   <diagram name="第 1 页" id="N2CALNT8F8_D19IIijXd">
-    <mxGraphModel dx="763" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5597" dy="3080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k2LjzVEdCU2Bg38sYzsO-58" target="k2LjzVEdCU2Bg38sYzsO-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-97" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k2LjzVEdCU2Bg38sYzsO-96">
+          <mxGeometry x="-0.8121" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-98" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k2LjzVEdCU2Bg38sYzsO-96">
+          <mxGeometry x="0.6545" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-58" value="credit_orders&lt;br&gt;信用订单&lt;br&gt;" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="530" y="400" width="700" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-59" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-58">
+          <mxGeometry y="50" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-60" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-59">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-61" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-59">
+          <mxGeometry x="30" width="670" height="30" as="geometry">
+            <mxRectangle width="670" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-62" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-58">
+          <mxGeometry y="80" width="700" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-63" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-62">
+          <mxGeometry width="30" height="440" as="geometry">
+            <mxRectangle width="30" height="440" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-64" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; `user_id` bigint(20) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;用户id&#39;,&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `channel` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;渠道:1微信&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `pay_type_route` int(10) unsigned NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;支付渠道路由：0-直连，非0-服务商&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `biz_type` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;渠道:1盒子机&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `order_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;订单号&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `out_order_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;三方订单号&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `order_amount` bigint(20) DEFAULT NULL COMMENT &#39;总金额&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `rent_amount` bigint(20) DEFAULT NULL COMMENT &#39;租借金额&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `compensation_amount` bigint(20) DEFAULT NULL COMMENT &#39;赔偿金额&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `refund_amount` bigint(20) DEFAULT NULL COMMENT &#39;退款金额&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `status` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;1初始化,2受理成功 3使用中,4待撤销,5已撤销,6待完结,7已完结,8扣款中,9代扣成功,10退款&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `loan_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;开始租借时间&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `return_time` datetime DEFAULT NULL COMMENT &#39;结束时间&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `pay_time` datetime DEFAULT NULL COMMENT &#39;代扣完成时间&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `refund_time` datetime DEFAULT NULL COMMENT &#39;退款时间&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `fail_reason` varchar(64) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;失败原因&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `deleted` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;归档标识&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `is_returned` tinyint(4) DEFAULT NULL COMMENT &#39;是否归还&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `remark` varchar(256) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;备注&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `price_change_degree` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;改价次数&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `pay_order_no` varchar(64) DEFAULT NULL,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `tenant_id` varchar(20) DEFAULT NULL,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `application_id` varchar(20) DEFAULT NULL,&lt;/font&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-62">
+          <mxGeometry x="30" width="670" height="440" as="geometry">
+            <mxRectangle width="670" height="440" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-71" value="orders_zhima_mapping&lt;br&gt;芝麻订单映射" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="500" width="790" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-71">
+          <mxGeometry y="50" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-73" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-72">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-74" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-72">
+          <mxGeometry x="30" width="760" height="30" as="geometry">
+            <mxRectangle width="760" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-75" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-71">
+          <mxGeometry y="80" width="790" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-76" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-75">
+          <mxGeometry width="30" height="350" as="geometry">
+            <mxRectangle width="30" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-77" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;`order_no` varchar(64) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;本系统订单号&#39;,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `order_id` bigint(20) DEFAULT NULL,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `zhima_order_no` varchar(64) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;关联芝麻信用那边的订单号&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `create_time` datetime DEFAULT NULL COMMENT &#39;创建时间&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `update_time` datetime DEFAULT NULL COMMENT &#39;更新时间&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `status` tinyint(4) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;1租借中2已归还3已撤销，对应信用借还订单状态&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `user_id` bigint(20) DEFAULT NULL COMMENT &#39;用户Id&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `pay_order_no` varchar(64) DEFAULT NULL,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `tenant_id` varchar(20) DEFAULT NULL,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `application_id` varchar(20) DEFAULT NULL,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `prod_type` tinyint(3) unsigned NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;信用产品类型：1-芝麻信用借还,2-芝麻先享后付&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `agreement_no` varchar(64) DEFAULT NULL COMMENT &#39;协议号，本订单所基于的信用协议&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `max_available_amount` bigint(20) unsigned DEFAULT NULL COMMENT &#39;最大可扣金额，若空，则默认使用商户签约时约定的上限额度&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `pay_amount` bigint(20) unsigned DEFAULT NULL COMMENT &#39;申请扣款金额，若空，说明该笔订单不用扣款&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `subject` varchar(128) DEFAULT NULL COMMENT &#39;标题&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `body` varchar(256) DEFAULT NULL COMMENT &#39;描述&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `pay_type` int(10) unsigned DEFAULT NULL COMMENT &#39;支付方式: 芝麻信用借还、小程序先享后付、H5先享后付、APP先享后付&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `pay_type_route` int(10) unsigned DEFAULT NULL COMMENT &#39;支付渠道路由：0-直连&#39;,&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-75">
+          <mxGeometry x="30" width="760" height="350" as="geometry">
+            <mxRectangle width="760" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-78" value="payment&lt;br&gt;支付单" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="1030" width="790" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-79" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-78">
+          <mxGeometry y="50" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-80" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-79">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-81" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-79">
+          <mxGeometry x="30" width="760" height="30" as="geometry">
+            <mxRectangle width="760" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-82" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-78">
+          <mxGeometry y="80" width="790" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-83" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-82">
+          <mxGeometry width="30" height="350" as="geometry">
+            <mxRectangle width="30" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-84" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp;`order_id` bigint(20) DEFAULT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `order_no` varchar(45) DEFAULT NULL COMMENT &#39;订单号 座充30前缀 盒子40前缀 41芝麻信用订单&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `trade_no` varchar(45) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;本系统交易号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_no` varchar(64) DEFAULT NULL COMMENT &#39;存放支付网关id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `device_no` varchar(45) DEFAULT NULL COMMENT &#39;引流相关设备号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `user_id` bigint(20) DEFAULT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `biz_type` tinyint(4) NOT NULL COMMENT &#39;31订单 32押金 33充值34余额还款35押金转余额36押金抵订单&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_type` int(11) NOT NULL COMMENT &#39;1微信支付，2微信app支付，3支付宝，4支付宝app，5微信小程序，6小电余额支付，7押金抵扣，8优惠券&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_type_route` int(10) unsigned NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;支付渠道路由：0-直连，非0-服务商&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `status` tinyint(4) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;1待支付2已支付3已退款&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_amount` int(11) NOT NULL COMMENT &#39;支付金额&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `refund_amount` int(11) DEFAULT NULL COMMENT &#39;退款金额&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_time` datetime DEFAULT NULL COMMENT &#39;支付时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `refund_time` datetime DEFAULT NULL COMMENT &#39;退款时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `note` varchar(500) DEFAULT NULL COMMENT &#39;备注&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` datetime DEFAULT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `calcRatio` tinyint(3) unsigned NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;分成百分比&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `calcType` tinyint(3) unsigned NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;分成类型 1:订单金额分成 2：实付金额分成&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `biz_id` bigint(20) unsigned NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;业务表id&#39;,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-82">
+          <mxGeometry x="30" width="760" height="350" as="geometry">
+            <mxRectangle width="760" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-85" value="payment_order_mapping&lt;br&gt;支付单订单映射" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1030" width="500" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-86" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-85">
+          <mxGeometry y="50" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-87" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-86">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-88" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-86">
+          <mxGeometry x="30" width="470" height="30" as="geometry">
+            <mxRectangle width="470" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-89" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-85">
+          <mxGeometry y="80" width="500" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-90" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-89">
+          <mxGeometry width="30" height="120" as="geometry">
+            <mxRectangle width="30" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-91" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;`order_no` varchar(64) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;订单号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `trade_no` varchar(64) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;交易单号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` datetime NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` datetime NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `status` tinyint(4) NOT NULL DEFAULT &#39;1&#39;,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-89">
+          <mxGeometry x="30" width="470" height="120" as="geometry">
+            <mxRectangle width="470" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.466;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k2LjzVEdCU2Bg38sYzsO-62" target="k2LjzVEdCU2Bg38sYzsO-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-94" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k2LjzVEdCU2Bg38sYzsO-92">
+          <mxGeometry x="0.756" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-95" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k2LjzVEdCU2Bg38sYzsO-92">
+          <mxGeometry x="-0.7505" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k2LjzVEdCU2Bg38sYzsO-89" target="k2LjzVEdCU2Bg38sYzsO-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-100" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k2LjzVEdCU2Bg38sYzsO-99">
+          <mxGeometry x="0.7586" y="8" relative="1" as="geometry">
+            <mxPoint x="-16" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-101" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k2LjzVEdCU2Bg38sYzsO-99">
+          <mxGeometry x="-0.8245" y="5" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-105" value="contract_records&lt;br&gt;签约记录表" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1850" width="650" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-106" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-105">
+          <mxGeometry y="50" width="650" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-107" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-106">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-108" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-106">
+          <mxGeometry x="30" width="620" height="30" as="geometry">
+            <mxRectangle width="620" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-109" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-105">
+          <mxGeometry y="80" width="650" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-110" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-109">
+          <mxGeometry width="30" height="290" as="geometry">
+            <mxRectangle width="30" height="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-111" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;div&gt;`user_id` bigint(20) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;用户id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `channel` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;渠道:1微信&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `biz_type` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;业务类型:1.会员续费&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `out_contract_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;外部业务流水号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `contract_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;合同签署流水号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `contract_id` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;三方合同id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `status` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;1初始化,2签约成功 3签约失败,4解约中,5已解约&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `contract_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;签约时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `expire_time` datetime DEFAULT NULL COMMENT &#39;过期时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `terminated_time` datetime DEFAULT NULL COMMENT &#39;解约时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `terminated_reason` varchar(64) DEFAULT NULL COMMENT &#39;解约原因&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fail_reason` varchar(64) DEFAULT NULL COMMENT &#39;失败原因&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `deleted` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;归档标识&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `remark` varchar(256) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;备注&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `terminated_mode` tinyint(4) DEFAULT NULL COMMENT &#39;解约方式&#39;,&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-109">
+          <mxGeometry x="30" width="620" height="290" as="geometry">
+            <mxRectangle width="620" height="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-112" value="hera_oper_log&lt;br&gt;操作记录表" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1790" width="530" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-113" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-112">
+          <mxGeometry y="50" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-114" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-113">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-115" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-113">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-116" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-112">
+          <mxGeometry y="80" width="530" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-117" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-116">
+          <mxGeometry width="30" height="170" as="geometry">
+            <mxRectangle width="30" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-118" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;`biz_no` varchar(32) NOT NULL COMMENT &#39;业务单号&#39;,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `biz_type` tinyint(4) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;业务单号类型1付款单号&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `user_name` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;当事人&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `user_id` bigint(20) NOT NULL COMMENT &#39;当事人Id&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `oper_event` varchar(64) NOT NULL COMMENT &#39;操作事件&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `remark` varchar(128) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;备注&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; `deleted` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;0有效 1逻辑删&#39;,&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-116">
+          <mxGeometry x="30" width="500" height="170" as="geometry">
+            <mxRectangle width="500" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-119" value="hera_pay_bill_batch_task&lt;br&gt;付款单批量任务表" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2160" width="550" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-120" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-119">
+          <mxGeometry y="50" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-121" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-120">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-122" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-120">
+          <mxGeometry x="30" width="520" height="30" as="geometry">
+            <mxRectangle width="520" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-123" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-119">
+          <mxGeometry y="80" width="550" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-124" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-123">
+          <mxGeometry width="30" height="230" as="geometry">
+            <mxRectangle width="30" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-125" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; `batch_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;批次号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `type` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;业务类型：1打款操作，2打款通道切换&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `trade_nos` text NOT NULL COMMENT &#39;付款单号列表&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `source` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;原始操作&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `target` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;目标操作&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `status` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;状态: 0初始化，1运行中，2已完成&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `operator_id` bigint(20) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;操作人ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `operator_name` varchar(50) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;操作人名称&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `operator_mail` varchar(100) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;操作人邮箱&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `remark` varchar(200) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;备注&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `deleted` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除；0否，1是&#39;,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-123">
+          <mxGeometry x="30" width="520" height="230" as="geometry">
+            <mxRectangle width="520" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-126" value="hera_pay_bill_batch_task_item&lt;br&gt;付款单批量任务明细表" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2620" width="550" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-127" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-126">
+          <mxGeometry y="50" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-128" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-127">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-129" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-127">
+          <mxGeometry x="30" width="520" height="30" as="geometry">
+            <mxRectangle width="520" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-130" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-126">
+          <mxGeometry y="80" width="550" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-131" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-130">
+          <mxGeometry width="30" height="200" as="geometry">
+            <mxRectangle width="30" height="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-132" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;`batch_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;批次号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `type` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;业务类型：1打款操作，2打款通道切换&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `trade_no` varchar(32) NOT NULL COMMENT &#39;付款单号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `source` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;原始操作&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `target` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;目标操作&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `status` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;状态: 1成功，2失败&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fail_reason` varchar(256) NOT NULL DEFAULT &#39; &#39; COMMENT &#39;失败原因&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `deleted` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除；0否，1是&#39;,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-130">
+          <mxGeometry x="30" width="520" height="200" as="geometry">
+            <mxRectangle width="520" height="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-133" value="hera_pay_bill&lt;br&gt;付款单" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2390" width="650" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-134" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-133">
+          <mxGeometry y="50" width="650" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-135" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-134">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-136" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-134">
+          <mxGeometry x="30" width="620" height="30" as="geometry">
+            <mxRectangle width="620" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-137" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-133">
+          <mxGeometry y="80" width="650" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-138" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-137">
+          <mxGeometry width="30" height="610" as="geometry">
+            <mxRectangle width="30" height="610" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-139" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; `out_biz_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;业务参考号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `trade_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;付款单流水号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `out_pay_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;支付单号，关联支付中心支付单号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `biz_type` tinyint(4) NOT NULL COMMENT &#39;业务类型 1订单退款 2 余额提现 3 押金退款 4 商户提现 5员工报销 6物料采购&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `object_id` bigint(20) NOT NULL COMMENT &#39;收款对象Id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `object_name` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;收款对象名称&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `object_type` tinyint(4) NOT NULL COMMENT &#39;收款对象类型 1普通商户(个人)2普通商户(企业) 3代理商户 4个人用户&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_amount` bigint(20) NOT NULL COMMENT &#39;付款金额&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `trade_status` tinyint(4) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;交易状态 1待打款2审核成功 3受理成功 4暂不打款&amp;nbsp; 5打款成功 6打款失败 7已撤销 8审核拒绝 &#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_time` datetime DEFAULT NULL COMMENT &#39;打款时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `check_time` datetime DEFAULT NULL COMMENT &#39;审核时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `check_user` varchar(32) DEFAULT NULL COMMENT &#39;审核人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `check_need` tinyint(4) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;1需要审核 2不需要审核&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fail_reason` varchar(128) NOT NULL DEFAULT &#39; &#39; COMMENT &#39;失败原因&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fail_type` tinyint(4) DEFAULT NULL COMMENT &#39;失败类型&amp;nbsp; 1收款方原因 2非收款方原因&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_channel` tinyint(4) NOT NULL COMMENT &#39;支付渠道 11 微信零钱 12微信银行卡 21支付宝零钱 22支付宝银行卡 31招行网银互联 32招行 代发代扣 33 招行直接支付 41爱员工&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_count` int(11) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;付款单次数&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `rec_bank_name` varchar(32) NOT NULL DEFAULT &#39; &#39; COMMENT &#39;收款账户银行名&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `rec_acct_name` varchar(32) NOT NULL DEFAULT &#39; &#39; COMMENT &#39;收款账户名&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `rec_acct_no` varchar(32) NOT NULL DEFAULT &#39; &#39; COMMENT &#39;收款账户号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `rec_acct_mark` varchar(64) NOT NULL DEFAULT &#39; &#39; COMMENT &#39;收款账户备注&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `mobile` varchar(20) NOT NULL DEFAULT &#39; &#39; COMMENT &#39;手机号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `person_no` varchar(32) NOT NULL DEFAULT &#39; &#39; COMMENT &#39;身份证号码&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `deleted` tinyint(2) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;0有效 1逻辑删&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `check_user_id` bigint(20) DEFAULT NULL COMMENT &#39;审核人Id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `card_type` tinyint(2) NOT NULL DEFAULT &#39;2&#39; COMMENT &#39;银行卡类型 2个人卡 1企业卡&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `notify_flag` tinyint(2) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;外部通知标识：1表示成功，2表示失败&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_deadline` datetime DEFAULT NULL COMMENT &#39;付款截止日期&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `settle_subject_type` tinyint(4) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;结算方类型，默认1：小电&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `settle_subject_id` bigint(20) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;结算方id，默认1：小电&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_account_subject` tinyint(4) NOT NULL DEFAULT &#39;-1&#39; COMMENT &#39;付款账号主体 0:友电;1:小电；-1:无&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `bill_apply_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;发起时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `has_invoice` tinyint(4) DEFAULT NULL,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-137">
+          <mxGeometry x="30" width="620" height="610" as="geometry">
+            <mxRectangle width="620" height="610" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-140" value="hades_pay_data_fetch_task&lt;br&gt;支付对账数据拉取任务表" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="992.5" y="3050" width="565" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-141" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-140">
+          <mxGeometry y="50" width="565" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-142" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-141">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-143" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-141">
+          <mxGeometry x="30" width="535" height="30" as="geometry">
+            <mxRectangle width="535" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-144" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-140">
+          <mxGeometry y="80" width="565" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-145" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-144">
+          <mxGeometry width="30" height="200" as="geometry">
+            <mxRectangle width="30" height="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-146" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; `type` tinyint(4) NOT NULL COMMENT &#39;任务类型：1爱员工 2本地账单 3招行&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `account_type` tinyint(4) NOT NULL DEFAULT &#39;-1&#39; COMMENT &#39;拉取账户类型：-1无 11小电 12友电 21本地 31小电 32友电&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fetch_date` date NOT NULL COMMENT &#39;账单日&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `start_fetch_time` datetime NOT NULL COMMENT &#39;开始获取时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `status` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;状态：0初始状态 1执行中 2执行成功 3执行失败&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `locked` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否锁定,1:锁定，0:未锁定&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `remark` varchar(1000) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;备注&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fail_reason` varchar(500) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;失败原因&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;修改时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除,1:删除，0:未删除&#39;,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-144">
+          <mxGeometry x="30" width="535" height="200" as="geometry">
+            <mxRectangle width="535" height="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-147" value="hades_pay_data_fetch_task&lt;br&gt;支付对账数据拉取任务表" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3240" width="520" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-148" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-147">
+          <mxGeometry y="50" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-149" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-148">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-150" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-148">
+          <mxGeometry x="30" width="490" height="30" as="geometry">
+            <mxRectangle width="490" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-151" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-147">
+          <mxGeometry y="80" width="520" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-152" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-151">
+          <mxGeometry width="30" height="350" as="geometry">
+            <mxRectangle width="30" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-153" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; `bill_time` datetime NOT NULL COMMENT &#39;交易时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `type` tinyint(4) NOT NULL COMMENT &#39;数据类型：1本地账单 2渠道账单&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `trade_no` varchar(32) NOT NULL COMMENT &#39;支付单号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_type` tinyint(4) NOT NULL COMMENT &#39;支付类型：1收入 2支出&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `channel` tinyint(4) NOT NULL COMMENT &#39;渠道名：1招商银行 2爱员工&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `out_pay_no` varchar(32) NOT NULL COMMENT &#39;渠道单号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `payer` tinyint(4) NOT NULL COMMENT &#39;付款方：1小电-招行 2小电-爱员工&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_bank_no` varchar(32) NOT NULL COMMENT &#39;付款方银行卡号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `receive_way` tinyint(4) NOT NULL COMMENT &#39;收款方式：1银行卡&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `receive_bank_user` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;收款方户名&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `receive_bank_name` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;收款方银行名&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `receive_bank_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;收款方银行卡号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `receive_mobile` varchar(20) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;收款方手机号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `receive_id_card` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;收款方身份证号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_status` tinyint(4) NOT NULL COMMENT &#39;支付状态：1处理中,2成功,3失败&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `amount` bigint(20) NOT NULL COMMENT &#39;金额&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;修改时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除,1:删除，0:未删除&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fail_reason` varchar(128) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;失败原因&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `out_req_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;外部流水号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `remark` varchar(128) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;备注&#39;,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-151">
+          <mxGeometry x="30" width="490" height="350" as="geometry">
+            <mxRectangle width="490" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-154" value="hades_pay_data&lt;br&gt;支付账单数据表" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="3470" width="565" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-155" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-154">
+          <mxGeometry y="50" width="565" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-156" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-155">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-157" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-155">
+          <mxGeometry x="30" width="535" height="30" as="geometry">
+            <mxRectangle width="535" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-158" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-154">
+          <mxGeometry y="80" width="565" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-159" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-158">
+          <mxGeometry width="30" height="340" as="geometry">
+            <mxRectangle width="30" height="340" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-160" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;`bill_time` datetime NOT NULL COMMENT &#39;交易时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `type` tinyint(4) NOT NULL COMMENT &#39;数据类型：1本地账单 2渠道账单&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `trade_no` varchar(32) NOT NULL COMMENT &#39;支付单号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_type` tinyint(4) NOT NULL COMMENT &#39;支付类型：1收入 2支出&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `channel` tinyint(4) NOT NULL COMMENT &#39;渠道名：1招商银行 2爱员工&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `out_pay_no` varchar(32) NOT NULL COMMENT &#39;渠道单号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `payer` tinyint(4) NOT NULL COMMENT &#39;付款方：1小电-招行 2小电-爱员工&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_bank_no` varchar(32) NOT NULL COMMENT &#39;付款方银行卡号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `receive_way` tinyint(4) NOT NULL COMMENT &#39;收款方式：1银行卡&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `receive_bank_user` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;收款方户名&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `receive_bank_name` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;收款方银行名&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `receive_bank_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;收款方银行卡号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `receive_mobile` varchar(20) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;收款方手机号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `receive_id_card` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;收款方身份证号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_status` tinyint(4) NOT NULL COMMENT &#39;支付状态：1处理中,2成功,3失败&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `amount` bigint(20) NOT NULL COMMENT &#39;金额&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;修改时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除,1:删除，0:未删除&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fail_reason` varchar(128) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;失败原因&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `out_req_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;外部流水号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `remark` varchar(128) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;备注&#39;,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-158">
+          <mxGeometry x="30" width="535" height="340" as="geometry">
+            <mxRectangle width="535" height="340" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-161" value="hera_pay_order&lt;br&gt;支付记录表" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="3840" width="565" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-162" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-161">
+          <mxGeometry y="50" width="565" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-163" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-162">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-164" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-162">
+          <mxGeometry x="30" width="535" height="30" as="geometry">
+            <mxRectangle width="535" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-165" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-161">
+          <mxGeometry y="80" width="565" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-166" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-165">
+          <mxGeometry width="30" height="410" as="geometry">
+            <mxRectangle width="30" height="410" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-167" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;`payment_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;第三方流水号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_req_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;支付流水号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `biz_seq_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;业务流水号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_amount` bigint(20) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;支付金额&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `real_amount` bigint(20) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;真实金额&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `refund_amount` bigint(20) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;退款金额&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `biz_type` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;业务类型:1.代付 2.代扣 3.认证支付&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `sub_biz_type` varchar(20) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;子业务类型&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `channel` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;渠道:1.爱员工&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `status` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;状态:1.初始化 2.处理中 3.受理成功 4.成功 5.失败&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `biz_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;业务时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;支付完成时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `payer_no` varchar(32) NOT NULL DEFAULT &#39;无&#39; COMMENT &#39;付款人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `payee_no` varchar(32) NOT NULL DEFAULT &#39;无&#39; COMMENT &#39;收款人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `currency` varchar(10) DEFAULT &#39;无&#39; COMMENT &#39;货币类型&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `req_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;请求时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fail_reason` varchar(256) DEFAULT &#39;无&#39; COMMENT &#39;失败原因&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `created_by` varchar(32) NOT NULL DEFAULT &#39;无&#39; COMMENT &#39;创建人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `updated_by` varchar(32) NOT NULL DEFAULT &#39;无&#39; COMMENT &#39;更新人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `deleted` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;归档标识&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `remark` varchar(512) NOT NULL DEFAULT &#39;无&#39; COMMENT &#39;备注&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `contract_no` varchar(32) NOT NULL DEFAULT &#39;无&#39; COMMENT &#39;用户号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `channel_type` tinyint(4) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;支付类型:1协议支付2平台支付3银联支付&#39;,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-165">
+          <mxGeometry x="30" width="535" height="410" as="geometry">
+            <mxRectangle width="535" height="410" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-168" value="hera_trans_order&lt;br&gt;支付单" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="4000" width="565" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-169" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-168">
+          <mxGeometry y="50" width="565" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-170" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-169">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-171" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-169">
+          <mxGeometry x="30" width="535" height="30" as="geometry">
+            <mxRectangle width="535" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-172" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-168">
+          <mxGeometry y="80" width="565" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-173" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-172">
+          <mxGeometry width="30" height="410" as="geometry">
+            <mxRectangle width="30" height="410" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-174" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;`payment_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;第三方流水号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_req_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;支付流水号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `biz_seq_no` varchar(32) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;业务流水号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_amount` bigint(20) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;支付金额&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `real_amount` bigint(20) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;真实金额&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `refund_amount` bigint(20) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;退款金额&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `biz_type` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;业务类型:1.代付 2.代扣 3.认证支付&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `sub_biz_type` varchar(20) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;子业务类型&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `channel` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;渠道:1.爱员工&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `status` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;状态:1.初始化 2.处理中 3.受理成功 4.成功 5.失败&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `biz_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;业务时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `pay_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;支付完成时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `payer_no` varchar(32) NOT NULL DEFAULT &#39;无&#39; COMMENT &#39;付款人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `payee_no` varchar(32) NOT NULL DEFAULT &#39;无&#39; COMMENT &#39;收款人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `currency` varchar(10) DEFAULT &#39;无&#39; COMMENT &#39;货币类型&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `req_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;请求时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fail_reason` varchar(256) DEFAULT &#39;无&#39; COMMENT &#39;失败原因&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `created_by` varchar(32) NOT NULL DEFAULT &#39;无&#39; COMMENT &#39;创建人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `updated_by` varchar(32) NOT NULL DEFAULT &#39;无&#39; COMMENT &#39;更新人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `deleted` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;归档标识&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `remark` varchar(512) NOT NULL DEFAULT &#39;无&#39; COMMENT &#39;备注&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `contract_no` varchar(32) NOT NULL DEFAULT &#39;无&#39; COMMENT &#39;用户号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `channel_type` tinyint(4) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;支付类型:1协议支付2平台支付3银联支付&#39;,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-172">
+          <mxGeometry x="30" width="535" height="410" as="geometry">
+            <mxRectangle width="535" height="410" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-175" value="wechat_corp_user&lt;br&gt;企业微信用户客服表" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="4460" width="410" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-176" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-175">
+          <mxGeometry y="50" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-177" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-176">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-178" value="`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;," style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-176">
+          <mxGeometry x="30" width="380" height="30" as="geometry">
+            <mxRectangle width="380" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-179" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-175">
+          <mxGeometry y="80" width="410" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-180" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-179">
+          <mxGeometry width="30" height="210" as="geometry">
+            <mxRectangle width="30" height="210" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2LjzVEdCU2Bg38sYzsO-181" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp; `gmt_create` bigint(20) NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `gmt_update` bigint(20) DEFAULT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` datetime NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `update_time` datetime DEFAULT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `user_id` varchar(32) NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `name` varchar(64) DEFAULT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `mobile` varchar(32) DEFAULT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `qr_code` varchar(512) DEFAULT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `avatar` varchar(512) DEFAULT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `guide_id` varchar(64) NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `corp_id` varchar(32) NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `sub_mchid` varchar(32) DEFAULT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `store_id` int(11) NOT NULL,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;spacing=4;spacingTop=-5;" vertex="1" parent="k2LjzVEdCU2Bg38sYzsO-179">
+          <mxGeometry x="30" width="380" height="210" as="geometry">
+            <mxRectangle width="380" height="210" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
