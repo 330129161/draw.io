@@ -1,1 +1,169 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T06:13:33.265Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.8" etag="gA-2vCBJELeO7xaJ7HtH" type="github"><diagram name="第 1 页" id="a7pbPis7dnukG-3FT-K6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-28T06:58:34.034Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="BJhHC_gOv0dgWD4nbyN7" version="21.0.8" type="github">
+  <diagram name="第 1 页" id="a7pbPis7dnukG-3FT-K6">
+    <mxGraphModel dx="1193" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YbVjnpIysxAvbXU26vcs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbVjnpIysxAvbXU26vcs-4" target="YbVjnpIysxAvbXU26vcs-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="120" />
+              <mxPoint x="360" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-47" value="解析、查询规则、&lt;br&gt;下发校验、完结校验、场景增强" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YbVjnpIysxAvbXU26vcs-12">
+          <mxGeometry x="0.2611" y="-1" relative="1" as="geometry">
+            <mxPoint x="22" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbVjnpIysxAvbXU26vcs-4" target="YbVjnpIysxAvbXU26vcs-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="200" />
+              <mxPoint x="180" y="200" />
+              <mxPoint x="180" y="401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-46" value="查询数据源获取数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YbVjnpIysxAvbXU26vcs-33">
+          <mxGeometry x="0.3924" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-4" value="work-order-platform&lt;br&gt;(工单控制台)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="10" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbVjnpIysxAvbXU26vcs-5" target="YbVjnpIysxAvbXU26vcs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-48" value="查询校验接口信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YbVjnpIysxAvbXU26vcs-14">
+          <mxGeometry x="-0.0972" y="1" relative="1" as="geometry">
+            <mxPoint x="24" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" edge="1" parent="1" source="YbVjnpIysxAvbXU26vcs-5" target="YbVjnpIysxAvbXU26vcs-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-44" value="创建/完结工单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YbVjnpIysxAvbXU26vcs-27">
+          <mxGeometry x="-0.0659" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-5" value="process-control-center&lt;br&gt;(流程控制)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbVjnpIysxAvbXU26vcs-6" target="YbVjnpIysxAvbXU26vcs-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="501.18" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-45" value="查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YbVjnpIysxAvbXU26vcs-17">
+          <mxGeometry x="-0.097" y="4" relative="1" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbVjnpIysxAvbXU26vcs-6" target="YbVjnpIysxAvbXU26vcs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-43" value="查业务对接老工单的数据接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YbVjnpIysxAvbXU26vcs-34">
+          <mxGeometry x="-0.7362" y="1" relative="1" as="geometry">
+            <mxPoint x="64" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-6" value="data-resources-server&lt;br&gt;(数据源管理)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="381.18" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbVjnpIysxAvbXU26vcs-7" target="YbVjnpIysxAvbXU26vcs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-38" value="启用/变更流程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YbVjnpIysxAvbXU26vcs-28">
+          <mxGeometry x="0.5487" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbVjnpIysxAvbXU26vcs-7" target="YbVjnpIysxAvbXU26vcs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-37" value="写入/查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YbVjnpIysxAvbXU26vcs-29">
+          <mxGeometry x="0.7268" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-7" value="workflow&lt;br&gt;(新工单)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="471.18" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbVjnpIysxAvbXU26vcs-8" target="YbVjnpIysxAvbXU26vcs-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="491" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-39" value="查新工单信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YbVjnpIysxAvbXU26vcs-31">
+          <mxGeometry x="-0.3977" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YbVjnpIysxAvbXU26vcs-8" target="YbVjnpIysxAvbXU26vcs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-40" value="查老工单信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YbVjnpIysxAvbXU26vcs-32">
+          <mxGeometry x="0.192" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-8" value="workflow-biz&lt;br&gt;(兼容新老工单的查询服务)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="530" y="10" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbVjnpIysxAvbXU26vcs-9" target="YbVjnpIysxAvbXU26vcs-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="491.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-9" value="woms&lt;br&gt;(老工单、以及业务放对接老工单代码)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="660" y="374.52" width="111" height="53.32" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-10" value="flowengine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="626.24" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-11" value="es" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="626.24" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-18" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-19" value="门店" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="594" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-20" value="设备" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="593" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-21" value="合同" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="594" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-22" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="630" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-23" value="..." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="630" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-24" value="..." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="630" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-26" value="接入方数据接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbVjnpIysxAvbXU26vcs-49" value="老工单相关应用梳理后可下线" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="860" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
