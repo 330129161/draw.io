@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T03:37:39.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="JNJMZp_pv-bNq21A7YBw" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-28T03:39:07.753Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="PH8JaTLiumlsLXISl1ss" version="21.0.8" type="github">
   <diagram name="第 1 页" id="gxxykPTM1EeHAOy4BDJM">
     <mxGraphModel dx="2417" dy="1027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,13 +89,13 @@
         <mxCell id="7WEZ1o1NPe2onoyEaOFd-291" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7WEZ1o1NPe2onoyEaOFd-11" source="7WEZ1o1NPe2onoyEaOFd-244" target="7WEZ1o1NPe2onoyEaOFd-290">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7WEZ1o1NPe2onoyEaOFd-244" value="设置下发数据&lt;br&gt;的条件表达式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7WEZ1o1NPe2onoyEaOFd-11">
+        <mxCell id="7WEZ1o1NPe2onoyEaOFd-244" value="设置下发的条件表达式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7WEZ1o1NPe2onoyEaOFd-11">
           <mxGeometry x="130.64999999999998" y="920" width="94.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7WEZ1o1NPe2onoyEaOFd-288" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7WEZ1o1NPe2onoyEaOFd-11" source="7WEZ1o1NPe2onoyEaOFd-273" target="7WEZ1o1NPe2onoyEaOFd-287">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7WEZ1o1NPe2onoyEaOFd-273" value="绑定基础工单&lt;br&gt;数据源接口" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7WEZ1o1NPe2onoyEaOFd-11">
+        <mxCell id="7WEZ1o1NPe2onoyEaOFd-273" value="绑定基础工单&lt;br&gt;数据源接口&lt;br&gt;(固定接口)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7WEZ1o1NPe2onoyEaOFd-11">
           <mxGeometry x="348.84" y="734.5" width="112.42" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7WEZ1o1NPe2onoyEaOFd-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7WEZ1o1NPe2onoyEaOFd-11" source="7WEZ1o1NPe2onoyEaOFd-277" target="7WEZ1o1NPe2onoyEaOFd-237">
@@ -126,26 +126,22 @@
         <mxCell id="7WEZ1o1NPe2onoyEaOFd-296" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7WEZ1o1NPe2onoyEaOFd-11" source="7WEZ1o1NPe2onoyEaOFd-287" target="7WEZ1o1NPe2onoyEaOFd-295">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7WEZ1o1NPe2onoyEaOFd-287" value="设置完结数据的表达式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7WEZ1o1NPe2onoyEaOFd-11">
+        <mxCell id="7WEZ1o1NPe2onoyEaOFd-287" value="设置完结的条件表达式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7WEZ1o1NPe2onoyEaOFd-11">
           <mxGeometry x="357.69" y="820" width="94.25" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7WEZ1o1NPe2onoyEaOFd-290" value="在详情展示页签，通过工单类型绑定的表单与规则绑定的数据源返回值，匹配设置工单处理人、工单业务等信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7WEZ1o1NPe2onoyEaOFd-11">
+        <mxCell id="7WEZ1o1NPe2onoyEaOFd-290" value="详情展示页签，通过工单类型绑定的表单与规则绑定的数据源返回值，匹配设置工单处理人、工单业务等信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7WEZ1o1NPe2onoyEaOFd-11">
           <mxGeometry x="83.38999999999999" y="1019.5" width="188.77" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="7WEZ1o1NPe2onoyEaOFd-315" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7WEZ1o1NPe2onoyEaOFd-11" source="7WEZ1o1NPe2onoyEaOFd-295" target="7WEZ1o1NPe2onoyEaOFd-314">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7WEZ1o1NPe2onoyEaOFd-315" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7WEZ1o1NPe2onoyEaOFd-11" source="7WEZ1o1NPe2onoyEaOFd-295" target="7WEZ1o1NPe2onoyEaOFd-318">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404.8333333333335" y="989.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7WEZ1o1NPe2onoyEaOFd-295" value="详情展示页签&lt;br&gt;设置业务id" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7WEZ1o1NPe2onoyEaOFd-11">
           <mxGeometry x="357.69" y="900" width="92.51" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7WEZ1o1NPe2onoyEaOFd-319" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7WEZ1o1NPe2onoyEaOFd-11" source="7WEZ1o1NPe2onoyEaOFd-314" target="7WEZ1o1NPe2onoyEaOFd-318">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7WEZ1o1NPe2onoyEaOFd-314" value="通过工单工单控制页面" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7WEZ1o1NPe2onoyEaOFd-11">
-          <mxGeometry x="346.69" y="989.5" width="116.25" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="7WEZ1o1NPe2onoyEaOFd-318" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7WEZ1o1NPe2onoyEaOFd-11">
-          <mxGeometry x="381.61" y="1099.5" width="46.87" height="44" as="geometry" />
+          <mxGeometry x="380.61" y="1010" width="46.87" height="44" as="geometry" />
         </mxCell>
         <mxCell id="7WEZ1o1NPe2onoyEaOFd-378" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7WEZ1o1NPe2onoyEaOFd-11" source="7WEZ1o1NPe2onoyEaOFd-323" target="7WEZ1o1NPe2onoyEaOFd-233">
           <mxGeometry relative="1" as="geometry" />
@@ -222,7 +218,7 @@
           <mxGeometry x="57.5" y="500" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7WEZ1o1NPe2onoyEaOFd-310" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7WEZ1o1NPe2onoyEaOFd-219">
-          <mxGeometry x="102.5" y="620" width="45" height="40" as="geometry" />
+          <mxGeometry x="102.5" y="612" width="45" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7WEZ1o1NPe2onoyEaOFd-321" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="7WEZ1o1NPe2onoyEaOFd-10" source="7WEZ1o1NPe2onoyEaOFd-290" target="7WEZ1o1NPe2onoyEaOFd-300">
           <mxGeometry relative="1" as="geometry">
