@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T07:55:54.494Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="7mymw-BSx2KYdOvb_ZIf" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T07:56:14.861Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="1b40Nl4d_rs5EefPRool" version="21.1.1" type="github">
   <diagram name="第 1 页" id="qDvJbTEbuSrQu1EEz2mj">
     <mxGraphModel dx="2847" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="jCcdDh_y-a8JtS73fzW_-50" value="电小代" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-330" y="-930" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jCcdDh_y-a8JtS73fzW_-53" value="调度规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-53" value="下发调度规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-440" y="-850" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jCcdDh_y-a8JtS73fzW_-54" value="事件管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
