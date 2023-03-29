@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T05:37:21.171Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.1.1" etag="oVYr99Ew77A0izGnj_bY" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T07:55:54.494Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="7mymw-BSx2KYdOvb_ZIf" version="21.1.1" type="github">
   <diagram name="第 1 页" id="qDvJbTEbuSrQu1EEz2mj">
-    <mxGraphModel>
+    <mxGraphModel dx="2847" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="-1030" width="540" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="-980" width="480" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-32" value="规则中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="-1030" width="220" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="-520" width="220" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-37" value="流程控制中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="-520" width="540" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-38" value="工单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="-420" width="540" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="-850" width="190" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-43" value="租户规则管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-625" y="-720" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-44" value="规则管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-595" y="-840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-46" value="默认规则管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-625" y="-790" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-47" value="租户规则白名单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-625" y="-650" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-48" value="CRM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="-930" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-49" value="电小二" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="-930" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-50" value="电小代" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="-930" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-53" value="调度规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-850" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-54" value="事件管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-850" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-55" value="工单数据源管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-634" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-56" value="调度器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-780" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-57" value="工单批量导入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-710" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-58" value="工单下发平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-489" y="-1030" width="139" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-59" value="数据源服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-865" y="-520" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-60" value="配置表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="-480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-61" value="本地数据源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="-430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-62" value="外部数据源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="-380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-63" value="数&lt;br&gt;据&lt;br&gt;定&lt;br&gt;义" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="-480" width="50" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-64" value="下发详情" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-634" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-66" value="工单处理人管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-710" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-67" value="工单控制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-780" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jCcdDh_y-a8JtS73fzW_-69" value="UI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="-970" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
