@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T09:49:45.994Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="y8WnRuFPUR6Irqn7Q5eW" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T09:58:00.047Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uHK40aGnDMR_5DhaSpwM" version="21.1.2" type="github">
   <diagram name="第 1 页" id="EK3nWvULo3nBlZG-5ygZ">
     <mxGraphModel dx="1590" dy="1027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,7 +196,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6w8iZAeXXynQaaDWndPm-71" value="同步员工信息到用户中心" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6w8iZAeXXynQaaDWndPm-68">
+        <mxCell id="6w8iZAeXXynQaaDWndPm-71" value="同步客户信息到用户中心" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6w8iZAeXXynQaaDWndPm-68">
           <mxGeometry x="-0.0277" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -254,7 +254,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6w8iZAeXXynQaaDWndPm-83" value="同步员工信息到用户中心" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6w8iZAeXXynQaaDWndPm-82">
+        <mxCell id="6w8iZAeXXynQaaDWndPm-83" value="同步客户信息到用户中心" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6w8iZAeXXynQaaDWndPm-82">
           <mxGeometry x="-0.0277" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
