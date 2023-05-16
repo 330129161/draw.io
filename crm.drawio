@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T02:17:09.689Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="hWHHAgRC1oYyBbpG4iOv" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T02:55:52.941Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Dj7z3Tk5vQFhyTCm6U8v" version="21.2.9" type="github">
   <diagram name="第 1 页" id="qv_Yb1zar3xZYrGLwf0X">
-    <mxGraphModel dx="3122" dy="2117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3389" dy="2289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-96" value="wk_crm.client_info（客户表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="370" width="720" height="690" as="geometry" />
+          <mxGeometry x="-240" y="170" width="720" height="690" as="geometry" />
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-97" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-96">
           <mxGeometry y="30" width="720" height="30" as="geometry" />
@@ -120,8 +120,8 @@
             <mxRectangle width="520" height="150" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-130" value="wk_business.buz_employee（导购表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="200" width="530" height="520" as="geometry" />
+        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-130" value="wk_business.buz_employee（百安居员工表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="-510" width="530" height="520" as="geometry" />
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-131" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-130">
           <mxGeometry y="30" width="530" height="30" as="geometry" />
@@ -149,8 +149,8 @@
             <mxRectangle width="500" height="460" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-137" value="wk_business.buz_wxwork_user_rel（企微员工与内部导购关系表&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="40" width="660" height="220" as="geometry" />
+        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-137" value="wk_business.buz_wxwork_user_rel（企微员工与内部员工(导购)关系表&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-510" width="660" height="220" as="geometry" />
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-138" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-137">
           <mxGeometry y="30" width="660" height="30" as="geometry" />
@@ -208,7 +208,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-151" value="wk_wxwork.corp_app_auth_info（企微权限配置相关）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1215" y="-680" width="615" height="290" as="geometry" />
+          <mxGeometry x="-1190" y="-680" width="615" height="290" as="geometry" />
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-152" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-151">
           <mxGeometry y="30" width="615" height="30" as="geometry" />
@@ -236,8 +236,8 @@
             <mxRectangle width="585" height="225" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-158" value="wk_wxwork.contact_user_employee_rel（企业微信外部联系人信息表&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1185" y="940" width="590" height="190" as="geometry" />
+        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-158" value="wk_wxwork.contact_user_employee_rel（企业微信外部联系人与百安居员工关系表&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1190" y="880" width="590" height="190" as="geometry" />
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-159" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-158">
           <mxGeometry y="30" width="590" height="30" as="geometry" />
