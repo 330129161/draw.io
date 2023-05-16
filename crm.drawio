@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T06:33:09.918Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="h5cJHxrnkoDW6D-EHcTG" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T07:29:04.145Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="LUzypiVHmxukqmurey3h" version="21.2.9" type="github">
   <diagram name="第 1 页" id="qv_Yb1zar3xZYrGLwf0X">
-    <mxGraphModel dx="7251" dy="4249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4601" dy="2538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,7 +108,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-123" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;wk_wxwork.corp_dept_user_rel（企微部门成员表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1900" y="-80" width="550" height="210" as="geometry" />
+          <mxGeometry x="-1930" y="-90" width="550" height="210" as="geometry" />
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-124" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-123">
           <mxGeometry y="30" width="550" height="30" as="geometry" />
@@ -131,7 +131,7 @@
             <mxRectangle width="30" height="150" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-129" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `CORP_ID` varchar(128) COLLATE utf8mb4_bin NOT NULL COMMENT &#39;授权方企业微信ID&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `&lt;font color=&quot;#99ff99&quot;&gt;USER_ID&lt;/font&gt;` varchar(128) COLLATE utf8mb4_bin NOT NULL COMMENT &#39;成员企微账号&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `DEPT_ID` int(10) unsigned NOT NULL COMMENT &#39;部门ID,根部门为1&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `IS_DIRECT` tinyint(1) NOT NULL COMMENT &#39;是否直属当前部门&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `IS_LEADER` tinyint(1) NOT NULL COMMENT &#39;成员所在的部门内是否为上级&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `ORDER` int(11) NOT NULL COMMENT &#39;部门内的排序值,默认为0,数值越大排序越前面&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `DELETED` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否已删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `CREATE_TIME` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `UPDATE_TIME` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-127">
+        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-129" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `CORP_ID` varchar(128) COLLATE utf8mb4_bin NOT NULL COMMENT &#39;授权方企业微信ID&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `USER_ID` varchar(128) COLLATE utf8mb4_bin NOT NULL COMMENT &#39;成员企微账号&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `DEPT_ID` int(10) unsigned NOT NULL COMMENT &#39;部门ID,根部门为1&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `IS_DIRECT` tinyint(1) NOT NULL COMMENT &#39;是否直属当前部门&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `IS_LEADER` tinyint(1) NOT NULL COMMENT &#39;成员所在的部门内是否为上级&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `ORDER` int(11) NOT NULL COMMENT &#39;部门内的排序值,默认为0,数值越大排序越前面&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `DELETED` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否已删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `CREATE_TIME` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `UPDATE_TIME` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-127">
           <mxGeometry x="30" width="520" height="150" as="geometry">
             <mxRectangle width="520" height="150" as="alternateBounds" />
           </mxGeometry>
@@ -197,11 +197,30 @@
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UR0pzvNC2Nnck1Nr8wvm-144" target="UR0pzvNC2Nnck1Nr8wvm-179">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.337;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UR0pzvNC2Nnck1Nr8wvm-144" target="UR0pzvNC2Nnck1Nr8wvm-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-400" y="1350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1565" y="1170" />
+              <mxPoint x="79" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-217" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UR0pzvNC2Nnck1Nr8wvm-216">
+          <mxGeometry x="-0.7716" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-218" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UR0pzvNC2Nnck1Nr8wvm-216">
+          <mxGeometry x="0.9451" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-144" value="wk_wxwork.corp_ext_user_info（企业微信外部联系人信息表&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1820" y="770" width="590" height="290" as="geometry" />
+          <mxGeometry x="-1870" y="750" width="610" height="310" as="geometry" />
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-145" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-144">
-          <mxGeometry y="30" width="590" height="30" as="geometry" />
+          <mxGeometry y="30" width="610" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-146" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-145">
           <mxGeometry width="30" height="30" as="geometry">
@@ -209,21 +228,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-147" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-145">
-          <mxGeometry x="30" width="560" height="30" as="geometry">
-            <mxRectangle width="560" height="30" as="alternateBounds" />
+          <mxGeometry x="30" width="580" height="30" as="geometry">
+            <mxRectangle width="580" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-148" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-144">
-          <mxGeometry y="60" width="590" height="230" as="geometry" />
+          <mxGeometry y="60" width="610" height="250" as="geometry" />
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-149" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-148">
-          <mxGeometry width="30" height="230" as="geometry">
-            <mxRectangle width="30" height="230" as="alternateBounds" />
+          <mxGeometry width="30" height="250" as="geometry">
+            <mxRectangle width="30" height="250" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-150" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `CORP_ID` varchar(64) COLLATE utf8mb4_bin NOT NULL COMMENT &#39;企业微信企业ID&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `EXT_USER_ID` varchar(64) COLLATE utf8mb4_bin NOT NULL COMMENT &#39;企业微信外部联系人ID&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `UNION_ID` varchar(64) COLLATE utf8mb4_bin DEFAULT NULL COMMENT &#39;微信unionid&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `NAME` varchar(64) COLLATE utf8mb4_bin DEFAULT NULL COMMENT &#39;昵称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `AVATAR` varchar(256) COLLATE utf8mb4_bin DEFAULT NULL COMMENT &#39;头像&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `POSITION` varchar(64) COLLATE utf8mb4_bin DEFAULT NULL COMMENT &#39;外部联系人的职位&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `CORP_NAME` varchar(32) COLLATE utf8mb4_bin DEFAULT NULL COMMENT &#39;企业简称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `CORP_FULL_NAME` varchar(64) COLLATE utf8mb4_bin DEFAULT NULL COMMENT &#39;企业全称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `GENDER` tinyint(4) DEFAULT &#39;0&#39; COMMENT &#39;性别 0-未知 1-男性 2-女性&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `TYPE` tinyint(4) DEFAULT NULL COMMENT &#39;外部联系人的类型，1表示该外部联系人是微信用户，2表示该外部联系人是企业微信用户&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `DELETED` tinyint(1) DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `UPDATE_TIME` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `CREATE_TIME` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-148">
-          <mxGeometry x="30" width="560" height="230" as="geometry">
-            <mxRectangle width="560" height="230" as="alternateBounds" />
+        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-150" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `CORP_ID` varchar(64) COLLATE utf8mb4_bin NOT NULL COMMENT &#39;企业微信企业ID&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `EXT_USER_ID` varchar(64) COLLATE utf8mb4_bin NOT NULL COMMENT &#39;企业微信外部联系人ID&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `UNION_ID` varchar(64) COLLATE utf8mb4_bin DEFAULT NULL COMMENT &#39;微信unionid&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `NAME` varchar(64) COLLATE utf8mb4_bin DEFAULT NULL COMMENT &#39;昵称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `AVATAR` varchar(256) COLLATE utf8mb4_bin DEFAULT NULL COMMENT &#39;头像&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `POSITION` varchar(64) COLLATE utf8mb4_bin DEFAULT NULL COMMENT &#39;外部联系人的职位&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `CORP_NAME` varchar(32) COLLATE utf8mb4_bin DEFAULT NULL COMMENT &#39;企业简称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `CORP_FULL_NAME` varchar(64) COLLATE utf8mb4_bin DEFAULT NULL COMMENT &#39;企业全称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `GENDER` tinyint(4) DEFAULT &#39;0&#39; COMMENT &#39;性别 0-未知 1-男性 2-女性&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `TYPE` tinyint(4) DEFAULT NULL COMMENT &#39;外部联系人的类型，1表示该外部联系人是微信用户，2表示该外部联系人是企业微信用户&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;&amp;nbsp; `EXTERNAL_PROFILE&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;` text&amp;nbsp; utf8mb4_bin DEFAULT NULL COMMENT &#39;外部联系人的自定义展示信息&#39;,&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `DELETED` tinyint(1) DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `UPDATE_TIME` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `CREATE_TIME` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-148">
+          <mxGeometry x="30" width="580" height="250" as="geometry">
+            <mxRectangle width="580" height="250" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-158" value="wk_wxwork.contact_user_employee_rel（企业成员与百安居员工关系表&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -255,13 +274,8 @@
             <mxRectangle width="560" height="130" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UR0pzvNC2Nnck1Nr8wvm-165" target="UR0pzvNC2Nnck1Nr8wvm-134">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1140" y="770" />
-              <mxPoint x="432" y="770" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UR0pzvNC2Nnck1Nr8wvm-165" target="UR0pzvNC2Nnck1Nr8wvm-134">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-165" value="wk_crm.client_employee_bind（客户员工绑定关系表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="780" y="60" width="720" height="310" as="geometry" />
@@ -324,10 +338,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-179" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;wk_wxwork.corp_user_ext_user_rel（企微部门成员联系人关系表）&lt;/font&gt;&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-1850" y="380" width="450" height="210" as="geometry" />
+          <mxGeometry x="-1950" y="320" width="540" height="250" as="geometry" />
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-180" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-179">
-          <mxGeometry y="30" width="450" height="30" as="geometry" />
+          <mxGeometry y="30" width="540" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-181" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-180">
           <mxGeometry width="30" height="30" as="geometry">
@@ -335,21 +349,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-182" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-180">
-          <mxGeometry x="30" width="420" height="30" as="geometry">
-            <mxRectangle width="420" height="30" as="alternateBounds" />
+          <mxGeometry x="30" width="510" height="30" as="geometry">
+            <mxRectangle width="510" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-183" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-179">
-          <mxGeometry y="60" width="450" height="150" as="geometry" />
+          <mxGeometry y="60" width="540" height="190" as="geometry" />
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-184" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-183">
-          <mxGeometry width="30" height="150" as="geometry">
-            <mxRectangle width="30" height="150" as="alternateBounds" />
+          <mxGeometry width="30" height="190" as="geometry">
+            <mxRectangle width="30" height="190" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-185" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-183">
-          <mxGeometry x="30" width="420" height="150" as="geometry">
-            <mxRectangle width="420" height="150" as="alternateBounds" />
+        <mxCell id="UR0pzvNC2Nnck1Nr8wvm-185" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; `CORP_ID` varchar(64) COLLATE utf8mb4_bin NOT NULL COMMENT &#39;企业微信企业ID&#39;,&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `EXT_USER_ID` varchar(64) COLLATE utf8mb4_bin NOT NULL COMMENT &#39;企业微信外部联系人ID&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `USER_ID` varchar(128) COLLATE utf8mb4_bin NOT NULL COMMENT &#39;成员企微账号&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `REMARK_DETAIL` text default &#39;&#39; COMMENT &#39;成员对外部联系人的备注(json)&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `STATUS` tinyint(4) DEFAULT 0 COMMENT &#39;0.无效，1.有效&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `CORP_STATUS` tinyint(4) DEFAULT 0 COMMENT &#39;好友状态，1.企微添加业主微信成功，2.员工删除业主微信 3.业主删除员工企微 4.员工接替失败&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `DELETED` tinyint(1) DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `UPDATE_TIME` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `CREATE_TIME` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UR0pzvNC2Nnck1Nr8wvm-183">
+          <mxGeometry x="30" width="510" height="190" as="geometry">
+            <mxRectangle width="510" height="190" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UR0pzvNC2Nnck1Nr8wvm-100" target="UR0pzvNC2Nnck1Nr8wvm-165">
@@ -373,7 +387,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UR0pzvNC2Nnck1Nr8wvm-213" value="&lt;font style=&quot;font-size: 31px;&quot;&gt;企微相关表&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;" vertex="1" parent="1">
-          <mxGeometry x="-1330" y="-490" width="210" height="30" as="geometry" />
+          <mxGeometry x="-690" y="-500" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
