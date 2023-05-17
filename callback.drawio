@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T06:05:57.170Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="cBzThO_5zMf-HuAHcCEi" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T06:06:46.006Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="lLPAyzH9sjktbqsaLo4s" version="21.2.9" type="github">
   <diagram name="第 1 页" id="-xb8jaA_QbG4gVyTH7ck">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -426,6 +426,9 @@
         </mxCell>
         <mxCell id="x3inlmCA5prpPURHXKOS-190" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="736" y="1320" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x3inlmCA5prpPURHXKOS-191" value="新增场景" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="910" width="720" height="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
