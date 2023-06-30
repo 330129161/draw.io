@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T11:28:12.428Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="OE42ntMwQp27ewYSNQ8K" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-30T11:28:32.778Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="W5l6TAy6XYBvWDh9yNW0" version="21.5.2" type="github">
   <diagram name="第 1 页" id="00bY6ro-Z-SXsll8cf5S">
-    <mxGraphModel dx="3117" dy="2749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3435" dy="1785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -293,7 +293,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-1" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;YV7udmCiwoafRJx1cq6cwrNUnJ6&quot;&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot; style=&quot;&quot;&gt;bnq_mcm.case_info 图文案例&lt;/div&gt;&lt;/div&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="60" y="-1250" width="500" height="320" as="geometry" />
+          <mxGeometry x="40" y="-1150" width="500" height="320" as="geometry" />
         </mxCell>
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="wdvLie8KJkQs4jrs-Oj5-1">
           <mxGeometry y="30" width="500" height="30" as="geometry" />
