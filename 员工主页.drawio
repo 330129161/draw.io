@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T09:34:32.117Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="OKwPz9ZjabMlP_3hMQIR" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-30T10:17:08.235Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="0Rarh_JUKVAvk42f7kKz" version="21.5.2" type="github">
   <diagram name="第 1 页" id="00bY6ro-Z-SXsll8cf5S">
-    <mxGraphModel dx="3435" dy="1785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5661" dy="3222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -293,7 +293,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-1" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;YV7udmCiwoafRJx1cq6cwrNUnJ6&quot;&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot; style=&quot;&quot;&gt;case_info 图文案例&lt;/div&gt;&lt;/div&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="290" y="-600" width="500" height="320" as="geometry" />
+          <mxGeometry x="210" y="-810" width="500" height="320" as="geometry" />
         </mxCell>
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="wdvLie8KJkQs4jrs-Oj5-1">
           <mxGeometry y="30" width="500" height="30" as="geometry" />
@@ -326,14 +326,24 @@
         </mxCell>
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-39" value="business_id&amp;nbsp;= id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wdvLie8KJkQs4jrs-Oj5-36">
           <mxGeometry x="0.2432" y="1" relative="1" as="geometry">
-            <mxPoint x="50" y="-1" as="offset" />
+            <mxPoint x="-11" y="135" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wdvLie8KJkQs4jrs-Oj5-8" target="wdvLie8KJkQs4jrs-Oj5-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wdvLie8KJkQs4jrs-Oj5-41" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wdvLie8KJkQs4jrs-Oj5-40">
+          <mxGeometry x="-0.2361" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdvLie8KJkQs4jrs-Oj5-42" value="business_id&amp;nbsp;= id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wdvLie8KJkQs4jrs-Oj5-40">
+          <mxGeometry x="0.0847" y="1" relative="1" as="geometry">
+            <mxPoint y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-8" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;YV7udmCiwoafRJx1cq6cwrNUnJ6&quot;&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot; style=&quot;&quot;&gt;activity_common_data&amp;nbsp;活动数据看板主表&lt;/div&gt;&lt;/div&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-1064" y="-800" width="500" height="320" as="geometry" />
+          <mxGeometry x="-1714" y="-880" width="500" height="320" as="geometry" />
         </mxCell>
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-9" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="wdvLie8KJkQs4jrs-Oj5-8">
           <mxGeometry y="30" width="500" height="30" as="geometry" />
@@ -362,7 +372,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-15" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;YV7udmCiwoafRJx1cq6cwrNUnJ6&quot;&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot; style=&quot;&quot;&gt;activity_behavoir_statistics&amp;nbsp;活动行为统计&lt;/div&gt;&lt;/div&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-1690" y="-430" width="500" height="320" as="geometry" />
+          <mxGeometry x="-2370" y="-320" width="500" height="320" as="geometry" />
         </mxCell>
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-16" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="wdvLie8KJkQs4jrs-Oj5-15">
           <mxGeometry y="30" width="500" height="30" as="geometry" />
@@ -391,7 +401,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-22" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;YV7udmCiwoafRJx1cq6cwrNUnJ6&quot;&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot; style=&quot;&quot;&gt;activity_user_collect&amp;nbsp;企微用户活动收藏表&lt;/div&gt;&lt;/div&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-1064" y="-290" width="500" height="320" as="geometry" />
+          <mxGeometry x="-1714" y="-80" width="500" height="320" as="geometry" />
         </mxCell>
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="wdvLie8KJkQs4jrs-Oj5-22">
           <mxGeometry y="30" width="500" height="30" as="geometry" />
@@ -420,7 +430,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-29" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;YV7udmCiwoafRJx1cq6cwrNUnJ6&quot;&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot; style=&quot;&quot;&gt;activity_user_behavior&amp;nbsp;用户活动行为表&lt;/div&gt;&lt;/div&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-494" y="-500" width="500" height="320" as="geometry" />
+          <mxGeometry x="-1080" y="-370" width="500" height="320" as="geometry" />
         </mxCell>
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="wdvLie8KJkQs4jrs-Oj5-29">
           <mxGeometry y="30" width="500" height="30" as="geometry" />
@@ -446,6 +456,20 @@
         <mxCell id="wdvLie8KJkQs4jrs-Oj5-35" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;YV7udmCiwoafRJx1cq6cwrNUnJ6&quot;&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot; style=&quot;&quot;&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;CREATE TABLE `activity_user_collect` (&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `activity_code` varchar(255) DEFAULT NULL COMMENT &#39;活动编号&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `business_id` bigint(20) NOT NULL COMMENT &#39;业务id（根据收藏类型确认是什么类型业务的id）&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `collect_type` int(2) unsigned zerofill NOT NULL DEFAULT &#39;01&#39; COMMENT &#39;收藏类型（1：设计案例，2：活动）&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `user_id` varchar(50) NOT NULL COMMENT &#39;企微用户id&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `query_param_1` varchar(30) DEFAULT NULL COMMENT &#39;查询条件1&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `query_param_2` varchar(30) DEFAULT NULL COMMENT &#39;查询条件2&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `query_param_3` varchar(30) DEFAULT NULL COMMENT &#39;查询条件3&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `query_param_4` varchar(30) DEFAULT NULL COMMENT &#39;查询条件4&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `query_param_5` varchar(30) DEFAULT NULL COMMENT &#39;查询条件5&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `deleted` tinyint(2) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除（0：未删除，1：已删除）&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `create_by` varchar(50) NOT NULL COMMENT &#39;创建人&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `update_by` varchar(50) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;更新人&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; `ext_json` text COMMENT &#39;扩展字段&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`),&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; KEY `idx_business_id` (`business_id`),&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;&amp;nbsp; KEY `idx_user_id` (`user_id`)&lt;/div&gt;&lt;div class=&quot;old-record-id-MSQWdxxeSoJiPEx5yrUcLGlKnmu&quot;&gt;) ENGINE=InnoDB AUTO_INCREMENT=236 DEFAULT CHARSET=utf8mb4 COMMENT=&#39;企微用户活动收藏表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="wdvLie8KJkQs4jrs-Oj5-33">
           <mxGeometry x="30" width="470" height="260" as="geometry">
             <mxRectangle width="470" height="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdvLie8KJkQs4jrs-Oj5-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="wdvLie8KJkQs4jrs-Oj5-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1214" y="-720" as="sourcePoint" />
+            <mxPoint x="-759.9333333333329" y="-600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-850" y="-720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdvLie8KJkQs4jrs-Oj5-44" value="business_id&amp;nbsp;= id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wdvLie8KJkQs4jrs-Oj5-43">
+          <mxGeometry x="-0.0934" y="-2" relative="1" as="geometry">
+            <mxPoint x="31" y="198" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
