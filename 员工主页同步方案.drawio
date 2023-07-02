@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-02T08:03:01.763Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="DH89CjNSKChdXCzVe7kT" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-02T08:04:36.940Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8BfdT19bkVrCq5fMradV" version="21.5.2" type="github">
   <diagram name="第 1 页" id="Qwnx7HLIJkxO82drDPAV">
-    <mxGraphModel dx="1193" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1193" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,11 +55,6 @@
         </mxCell>
         <mxCell id="YSNFkO6s6Fgr6ya0v-bq-16" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Virtual_Clusters.svg;" vertex="1" parent="1">
           <mxGeometry x="64.5" y="260" width="66" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="YSNFkO6s6Fgr6ya0v-bq-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="YSNFkO6s6Fgr6ya0v-bq-22" target="YSNFkO6s6Fgr6ya0v-bq-45">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="210" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="YSNFkO6s6Fgr6ya0v-bq-22" value="mq" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="390" y="324" width="60" height="80" as="geometry" />
@@ -116,7 +111,7 @@
           <mxGeometry x="844" y="605" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YSNFkO6s6Fgr6ya0v-bq-45" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;存储采用json字符串形式的消息&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="322.5" y="250" width="195" height="50" as="geometry" />
+          <mxGeometry x="336" y="267" width="195" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YSNFkO6s6Fgr6ya0v-bq-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YSNFkO6s6Fgr6ya0v-bq-46" target="YSNFkO6s6Fgr6ya0v-bq-51">
           <mxGeometry relative="1" as="geometry">
