@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T10:19:54.130Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Od8s14zkwpXempNTlvBK" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T10:29:58.958Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="3mScOscJHwJihIFAVmx6" version="21.5.2" type="github">
   <diagram name="第 1 页" id="kWR0HwdJ2AVIR2OB0LP1">
-    <mxGraphModel dx="2112" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2112" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,7 +87,7 @@
             <mxPoint x="-150" y="735.16" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gUCkD3Z5L_mQMOncsRFA-138" value="合并到test提测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gUCkD3Z5L_mQMOncsRFA-25">
+        <mxCell id="gUCkD3Z5L_mQMOncsRFA-138" value="本地测试通过&lt;br&gt;合并到test提测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gUCkD3Z5L_mQMOncsRFA-25">
           <mxGeometry x="0.2363" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -103,7 +103,7 @@
         <mxCell id="gUCkD3Z5L_mQMOncsRFA-124" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gUCkD3Z5L_mQMOncsRFA-132" target="gUCkD3Z5L_mQMOncsRFA-123">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gUCkD3Z5L_mQMOncsRFA-139" value="本地测试通过&lt;br&gt;合并到test提测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gUCkD3Z5L_mQMOncsRFA-124">
+        <mxCell id="gUCkD3Z5L_mQMOncsRFA-139" value="合并到test" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gUCkD3Z5L_mQMOncsRFA-124">
           <mxGeometry x="0.2451" y="-1" relative="1" as="geometry">
             <mxPoint x="2" y="-8" as="offset" />
           </mxGeometry>
@@ -155,10 +155,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gUCkD3Z5L_mQMOncsRFA-119" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
-          <mxGeometry x="-355" y="900" width="40" height="40" as="geometry" />
+          <mxGeometry x="-355" y="920" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gUCkD3Z5L_mQMOncsRFA-123" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="75" y="705" width="40" height="40" as="geometry" />
+          <mxGeometry x="75" y="700" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gUCkD3Z5L_mQMOncsRFA-126" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;test分支打快照包&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1.2-snapshot&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="700" width="100" height="50" as="geometry" />
