@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T07:27:57.763Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="byYCQUhjjgQzj4k6lzXy" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T07:34:45.688Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="kzcoT1QOaqBOyajyaRqo" version="21.5.2" type="github">
   <diagram name="第 1 页" id="4JoTaoSx7be4t_oKLLkg">
     <mxGraphModel dx="1272" dy="1990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -248,7 +248,7 @@
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-105" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UK_X4ILq6T3edC79J_2B-102">
           <mxGeometry x="0.2063" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-103" target="UK_X4ILq6T3edC79J_2B-107">
@@ -258,7 +258,7 @@
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-115" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UK_X4ILq6T3edC79J_2B-106">
           <mxGeometry x="-0.1167" y="-5" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
+            <mxPoint x="12" y="50" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-103" value="是否超过&lt;br&gt;最大重试次数" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -268,7 +268,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-107" value="补偿任务状态&lt;br&gt;设置为执行失败" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="322.5" width="100" height="47.5" as="geometry" />
+          <mxGeometry x="1670" y="327.5" width="100" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-108" target="UK_X4ILq6T3edC79J_2B-93">
           <mxGeometry relative="1" as="geometry">
