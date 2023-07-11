@@ -1,33 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T07:04:23.047Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="wBq5Zy8BqcZW3UY7eMAK" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T07:08:41.750Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8nNHOVKjndKxVABwmzk7" version="21.5.2" type="github">
   <diagram name="第 1 页" id="4JoTaoSx7be4t_oKLLkg">
     <mxGraphModel dx="1193" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="UK_X4ILq6T3edC79J_2B-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="20" y="200" width="330" height="320" as="geometry" />
+          <mxGeometry x="50" y="200" width="330" height="320" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-5" target="UK_X4ILq6T3edC79J_2B-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="320" as="targetPoint" />
+            <mxPoint x="260" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UK_X4ILq6T3edC79J_2B-5" value="处理员工客户事件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="130" width="100" height="50" as="geometry" />
+        <mxCell id="UK_X4ILq6T3edC79J_2B-5" value="处理员工客户事件、以及其他历史逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-6" target="UK_X4ILq6T3edC79J_2B-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="40" as="targetPoint" />
+            <mxPoint x="250" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-6" value="企微回调&lt;br&gt;员工客户&lt;br&gt;关系事件" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="-110" width="120" height="80" as="geometry" />
+          <mxGeometry x="200" y="-110" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-9" target="UK_X4ILq6T3edC79J_2B-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-9" value="同步到用户中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="230" width="100" height="50" as="geometry" />
+          <mxGeometry x="210" y="230" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-13" target="UK_X4ILq6T3edC79J_2B-15">
           <mxGeometry relative="1" as="geometry" />
@@ -46,22 +46,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-13" value="是否成功&lt;br&gt;返回oneId" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="185" y="320" width="90" height="80" as="geometry" />
+          <mxGeometry x="215" y="320" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-15" target="UK_X4ILq6T3edC79J_2B-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-15" value="oneid相关记录&lt;br&gt;数据落库" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="440" width="100" height="50" as="geometry" />
+          <mxGeometry x="210" y="440" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-18" target="UK_X4ILq6T3edC79J_2B-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-18" value="打印错误日志" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="440" width="90" height="50" as="geometry" />
+          <mxGeometry x="70" y="440" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-20" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="206.25" y="540" width="47.5" height="40" as="geometry" />
+          <mxGeometry x="236.25" y="540" width="47.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-26" target="UK_X4ILq6T3edC79J_2B-5">
           <mxGeometry relative="1" as="geometry" />
@@ -75,7 +75,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-26" value="发送事件mq" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="30" width="100" height="50" as="geometry" />
+          <mxGeometry x="210" y="20" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-32" target="UK_X4ILq6T3edC79J_2B-39">
           <mxGeometry relative="1" as="geometry">
@@ -123,11 +123,11 @@
             <mxPoint x="805" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UK_X4ILq6T3edC79J_2B-48" value="抛出异常、&lt;br&gt;等待mq下次重试" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="UK_X4ILq6T3edC79J_2B-48" value="抛出异常、&lt;br&gt;等待mq下次重试" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FFFFFF;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="780" y="130" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-49" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="606.25" y="375" width="47.5" height="40" as="geometry" />
+          <mxGeometry x="606.25" y="350" width="47.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-63" target="UK_X4ILq6T3edC79J_2B-32">
           <mxGeometry relative="1" as="geometry" />
@@ -165,10 +165,10 @@
         <mxCell id="UK_X4ILq6T3edC79J_2B-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-72" target="UK_X4ILq6T3edC79J_2B-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UK_X4ILq6T3edC79J_2B-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-72" target="UK_X4ILq6T3edC79J_2B-79">
+        <mxCell id="UK_X4ILq6T3edC79J_2B-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-72" target="UK_X4ILq6T3edC79J_2B-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UK_X4ILq6T3edC79J_2B-72" value="记录入库，&lt;br&gt;状态为待执行" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UK_X4ILq6T3edC79J_2B-72" value="补偿任务入库，&lt;br&gt;状态为待执行" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="100" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-75" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -177,18 +177,18 @@
         <mxCell id="UK_X4ILq6T3edC79J_2B-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-78" target="UK_X4ILq6T3edC79J_2B-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UK_X4ILq6T3edC79J_2B-81" value="每天凌晨扫描一次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UK_X4ILq6T3edC79J_2B-80">
+        <mxCell id="UK_X4ILq6T3edC79J_2B-81" value="定时任务&lt;br&gt;每天凌晨扫描一次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UK_X4ILq6T3edC79J_2B-80">
           <mxGeometry x="-0.0857" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-78" value="xxl-job" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="-110" width="90" height="40" as="geometry" />
+          <mxGeometry x="1310" y="-120" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-79" target="UK_X4ILq6T3edC79J_2B-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UK_X4ILq6T3edC79J_2B-79" value="扫描失败的&lt;br&gt;所有记录" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UK_X4ILq6T3edC79J_2B-79" value="扫描所有待执行&lt;br&gt;&amp;nbsp;的补偿任务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1302.5" width="107.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-82" target="UK_X4ILq6T3edC79J_2B-88">
@@ -196,7 +196,7 @@
             <mxPoint x="1356.3000000000002" y="195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UK_X4ILq6T3edC79J_2B-82" value="同步到用户中心" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UK_X4ILq6T3edC79J_2B-82" value="遍历&lt;br&gt;同步到用户中心" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1309.38" y="100" width="93.75" height="45" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-88" target="UK_X4ILq6T3edC79J_2B-91">
@@ -225,21 +225,21 @@
         <mxCell id="UK_X4ILq6T3edC79J_2B-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-91" target="UK_X4ILq6T3edC79J_2B-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UK_X4ILq6T3edC79J_2B-91" value="oneid相关记录&lt;br&gt;数据落库、记录状态设置为执行完成" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1301.2600000000002" y="320" width="110" height="50" as="geometry" />
+        <mxCell id="UK_X4ILq6T3edC79J_2B-91" value="oneid相关记录&lt;br&gt;数据落库、记录补偿任务状态为执行完成" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1295.6299999999999" y="320" width="118.74" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-93" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1331.25" y="400" width="47.5" height="40" as="geometry" />
+          <mxGeometry x="1331.25" y="410" width="47.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-100" target="UK_X4ILq6T3edC79J_2B-93">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1580" y="420" />
+              <mxPoint x="1580" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UK_X4ILq6T3edC79J_2B-100" value="失败次数记录数+1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="320" width="100" height="47.5" as="geometry" />
+        <mxCell id="UK_X4ILq6T3edC79J_2B-100" value="失败次数记录数+1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FFFFFF;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="322.5" width="100" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="UK_X4ILq6T3edC79J_2B-100">
           <mxGeometry relative="1" as="geometry">
@@ -256,17 +256,27 @@
             <mxPoint x="1720" y="235" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="UK_X4ILq6T3edC79J_2B-115" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UK_X4ILq6T3edC79J_2B-106">
+          <mxGeometry x="-0.1167" y="-5" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-103" value="是否超过&lt;br&gt;最大重试次数" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1535.0000000000002" y="195" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-107" target="UK_X4ILq6T3edC79J_2B-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UK_X4ILq6T3edC79J_2B-107" value="记录状态设置为执行失败" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="320" width="100" height="47.5" as="geometry" />
+        <mxCell id="UK_X4ILq6T3edC79J_2B-107" value="记录状态设置为执行失败" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="322.5" width="100" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-108" target="UK_X4ILq6T3edC79J_2B-93">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1720" y="510" />
+              <mxPoint x="1355" y="510" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-108" value="发送飞书消息提醒、人工介入" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="1670" y="430" width="100" height="48.75" as="geometry" />
