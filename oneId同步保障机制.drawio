@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T06:56:12.011Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uenq9RBTVTbKvcv_tZJI" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T07:04:23.047Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="wBq5Zy8BqcZW3UY7eMAK" version="21.5.2" type="github">
   <diagram name="第 1 页" id="4JoTaoSx7be4t_oKLLkg">
-    <mxGraphModel dx="1468" dy="2117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1193" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,7 +147,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UK_X4ILq6T3edC79J_2B-63" value="重试次数&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;超过mq&lt;br&gt;重试策略" style="rhombus;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="UK_X4ILq6T3edC79J_2B-63" value="重试次数&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;超过mq&lt;br&gt;重试策略" style="rhombus;whiteSpace=wrap;html=1;dashed=1;fillColor=#FFFF99;" vertex="1" parent="1">
           <mxGeometry x="790" y="-20" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-68" target="UK_X4ILq6T3edC79J_2B-70">
@@ -168,7 +168,7 @@
         <mxCell id="UK_X4ILq6T3edC79J_2B-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-72" target="UK_X4ILq6T3edC79J_2B-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UK_X4ILq6T3edC79J_2B-72" value="失败同步&lt;br&gt;记录入库，&lt;br&gt;状态为待执行" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UK_X4ILq6T3edC79J_2B-72" value="记录入库，&lt;br&gt;状态为待执行" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="100" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-75" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -238,7 +238,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UK_X4ILq6T3edC79J_2B-100" value="失败次数记录数+1" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UK_X4ILq6T3edC79J_2B-100" value="失败次数记录数+1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="1530" y="320" width="100" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="UK_X4ILq6T3edC79J_2B-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="UK_X4ILq6T3edC79J_2B-100">
@@ -268,7 +268,7 @@
         <mxCell id="UK_X4ILq6T3edC79J_2B-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UK_X4ILq6T3edC79J_2B-108" target="UK_X4ILq6T3edC79J_2B-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UK_X4ILq6T3edC79J_2B-108" value="发送飞书消息提醒、人工接入" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UK_X4ILq6T3edC79J_2B-108" value="发送飞书消息提醒、人工介入" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="1670" y="430" width="100" height="48.75" as="geometry" />
         </mxCell>
       </root>
