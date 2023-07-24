@@ -1,0 +1,414 @@
+<mxfile host="app.diagrams.net" modified="2023-07-24T09:53:17.208Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="O7_8CoIGgaMkRQunicBL" version="21.6.5" type="github">
+  <diagram name="第 1 页" id="v13Tga0opJ_VagtoMVjJ">
+    <mxGraphModel dx="2020" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-1" value="uaa_user" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="310" width="420" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-1">
+          <mxGeometry y="30" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-3" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-2">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-4" value="`ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-2">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-1">
+          <mxGeometry y="60" width="420" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-6" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-5">
+          <mxGeometry width="30" height="290" as="geometry">
+            <mxRectangle width="30" height="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-7" value="&lt;div&gt;CREATE TABLE `uaa_user` (&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ID` bigint(20) NOT NULL AUTO_INCREMENT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ACCOUNT` varchar(128) DEFAULT NULL COMMENT &#39;账号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `NICK_NAME` varchar(32) DEFAULT NULL COMMENT &#39;用户昵称&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `PHONE` varchar(20) DEFAULT NULL COMMENT &#39;联系电话&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EMAIL` varchar(64) DEFAULT NULL COMMENT &#39;用户邮箱&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `AVATAR` varchar(256) DEFAULT NULL COMMENT &#39;用户头像&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DOMAIN_ID` bigint(20) DEFAULT NULL COMMENT &#39;用户所属域&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `STATUS` tinyint(1) DEFAULT NULL COMMENT &#39;状态&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `UPDATE_TIME` datetime DEFAULT NULL COMMENT &#39;最后更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CREATE_TIME` datetime DEFAULT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `SCOPE_ID` bigint(20) DEFAULT NULL COMMENT &#39;分站点&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (`ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; UNIQUE KEY `UNI_PHONE_STATUS` (`PHONE`,`STATUS`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `IDX_DOMAIN_ID` (`DOMAIN_ID`) USING BTREE&lt;/div&gt;&lt;div&gt;) ENGINE=InnoDB AUTO_INCREMENT=34907 DEFAULT CHARSET=utf8mb4;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-5">
+          <mxGeometry x="30" width="390" height="290" as="geometry">
+            <mxRectangle width="390" height="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.019;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0U1Ae2gim0tneBmZpMTz-14" target="0U1Ae2gim0tneBmZpMTz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-121" value="user_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-119">
+          <mxGeometry x="-0.8442" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-122" value="id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-119">
+          <mxGeometry x="0.8826" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-14" value="uaa_user_auths" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="840" width="420" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-14">
+          <mxGeometry y="30" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-16" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-15">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-17" value="`ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-15">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-18" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-14">
+          <mxGeometry y="60" width="420" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-19" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-18">
+          <mxGeometry width="30" height="260" as="geometry">
+            <mxRectangle width="30" height="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-20" value="&lt;div&gt;CREATE TABLE `uaa_user_auths` (&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ID` bigint(20) NOT NULL AUTO_INCREMENT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `USER_ID` bigint(20) DEFAULT NULL COMMENT &#39;用户唯一标识&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `IDENTITY_TYPE` tinyint(1) DEFAULT NULL COMMENT &#39;登录类型（手机号）&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `IDENTIFIER` varchar(64) DEFAULT NULL COMMENT &#39;标识（手机号 邮箱 用户名或第三方应用的唯一标识）&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CREDENTIAL` varchar(64) DEFAULT NULL COMMENT &#39;密码凭证&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `UPDATE_TIME` datetime DEFAULT NULL COMMENT &#39;最后更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CREATE_TIME` datetime DEFAULT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (`ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; UNIQUE KEY `UNI_IDENTIFIER_TYPE` (`IDENTITY_TYPE`,`IDENTIFIER`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `IDX_USER_ID` (`USER_ID`) USING BTREE&lt;/div&gt;&lt;div&gt;) ENGINE=InnoDB AUTO_INCREMENT=92187 DEFAULT CHARSET=utf8mb4;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-18">
+          <mxGeometry x="30" width="390" height="260" as="geometry">
+            <mxRectangle width="390" height="260" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-21" value="uaa_domain" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="160" width="420" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-22" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-21">
+          <mxGeometry y="30" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-23" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-22">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-24" value="`ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-22">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-21">
+          <mxGeometry y="60" width="420" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-26" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-25">
+          <mxGeometry width="30" height="165" as="geometry">
+            <mxRectangle width="30" height="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-27" value="&lt;div&gt;CREATE TABLE `uaa_domain` (&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ID` bigint(20) NOT NULL AUTO_INCREMENT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `NAME` varchar(32) DEFAULT NULL COMMENT &#39;domain名称&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EP_ID` bigint(20) DEFAULT NULL COMMENT &#39;企业ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `UPDATE_TIME` datetime DEFAULT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CREATE_TIME` datetime DEFAULT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (`ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; UNIQUE KEY `UNI_EP_NAME` (`NAME`,`EP_ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `IDX_EP` (`EP_ID`) USING BTREE&lt;/div&gt;&lt;div&gt;) ENGINE=InnoDB AUTO_INCREMENT=475 DEFAULT CHARSET=utf8mb4;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-25">
+          <mxGeometry x="30" width="390" height="165" as="geometry">
+            <mxRectangle width="390" height="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-28" value="uaa_role" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="760" width="420" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-28">
+          <mxGeometry y="30" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-30" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-29">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-31" value="`ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-29">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-32" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-28">
+          <mxGeometry y="60" width="420" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-33" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-32">
+          <mxGeometry width="30" height="300" as="geometry">
+            <mxRectangle width="30" height="300" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-34" value="&lt;div&gt;CREATE TABLE `uaa_role` (&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ID` bigint(20) NOT NULL AUTO_INCREMENT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DOMAIN_ID` bigint(20) DEFAULT NULL COMMENT &#39;域ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `NAME` varchar(32) DEFAULT NULL COMMENT &#39;角色名称&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `IDENTIFIER` varchar(64) DEFAULT NULL COMMENT &#39;角色标识符&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `STATUS` tinyint(1) DEFAULT NULL COMMENT &#39;状态&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `LEVEL` int(6) DEFAULT &#39;300&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `UPDATE_TIME` datetime DEFAULT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CREATE_TIME` datetime DEFAULT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `PLATFORM_ID` bigint(20) DEFAULT NULL COMMENT &#39;平台域id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `TYPE` tinyint(1) DEFAULT NULL COMMENT &#39;角色类型 0-自定义角色 1-系统角色&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CREATE_USER_ID` bigint(20) DEFAULT NULL COMMENT &#39;创建人id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ROLE_DESC` varchar(255) DEFAULT NULL COMMENT &#39;角色描述&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (`ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; UNIQUE KEY `UNI_DOMAIN_IDENTIFIER_PLATFORM_ID` (`DOMAIN_ID`,`IDENTIFIER`,`PLATFORM_ID`) USING BTREE&lt;/div&gt;&lt;div&gt;) ENGINE=InnoDB AUTO_INCREMENT=163 DEFAULT CHARSET=utf8mb4;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-32">
+          <mxGeometry x="30" width="390" height="300" as="geometry">
+            <mxRectangle width="390" height="300" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.505;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0U1Ae2gim0tneBmZpMTz-35" target="0U1Ae2gim0tneBmZpMTz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-113" value="user_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-112">
+          <mxGeometry x="-0.7263" y="4" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-114" value="id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-112">
+          <mxGeometry x="0.715" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-35" value="uaa_user_role" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="850" width="420" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-36" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-35">
+          <mxGeometry y="30" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-37" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-36">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-38" value="`ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-36">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-39" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-35">
+          <mxGeometry y="60" width="420" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-40" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-39">
+          <mxGeometry width="30" height="120" as="geometry">
+            <mxRectangle width="30" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-41" value="&lt;div&gt;CREATE TABLE `uaa_user_role` (&lt;/div&gt;&lt;div&gt;&amp;nbsp; `USER_ID` bigint(20) NOT NULL COMMENT &#39;用户ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ROLE_ID` bigint(20) NOT NULL COMMENT &#39;角色ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `UPDATE_TIME` datetime DEFAULT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CREATE_TIME` datetime DEFAULT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (`USER_ID`,`ROLE_ID`) USING BTREE&lt;/div&gt;&lt;div&gt;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-39">
+          <mxGeometry x="30" width="390" height="120" as="geometry">
+            <mxRectangle width="390" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0U1Ae2gim0tneBmZpMTz-43" target="0U1Ae2gim0tneBmZpMTz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-109" value="per_user_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-107">
+          <mxGeometry x="-0.8865" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-110" value="id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-107">
+          <mxGeometry x="0.845" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-43" value="buz_employee" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-590" width="420" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-44" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-43">
+          <mxGeometry y="30" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-45" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-44">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-46" value="`ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-44">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-47" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-43">
+          <mxGeometry y="60" width="420" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-48" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-47">
+          <mxGeometry width="30" height="290" as="geometry">
+            <mxRectangle width="30" height="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-49" value="&lt;div&gt;CREATE TABLE `buz_employee` (&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EP_ID` bigint(20) NOT NULL COMMENT &#39;企业id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `APP_ID` bigint(20) DEFAULT NULL COMMENT &#39;appid&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `STORE_ID` bigint(20) DEFAULT NULL COMMENT &#39;门店ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `NAME` varchar(128) NOT NULL COMMENT &#39;员工姓名&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `PHONE` varchar(11) NOT NULL COMMENT &#39;员工手机号=账号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `USER_ID` bigint(20) DEFAULT NULL COMMENT &#39;如果是核销员需要认证会员&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `PER_USER_ID` bigint(20) DEFAULT NULL COMMENT &#39;对应的用户ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `WX_WORK_USER_ID` varchar(128) DEFAULT NULL COMMENT &#39;企业微信用户Id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `SEX` varchar(8) DEFAULT NULL COMMENT &#39;性别&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DESC_INFO` varchar(256) DEFAULT NULL COMMENT &#39;备注&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `POSITION_ID` varchar(64) DEFAULT NULL COMMENT &#39;职位ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `POSITION_NAME` varchar(32) DEFAULT NULL COMMENT &#39;职位名&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EMPLOYEE_GROUP_ID` bigint(20) DEFAULT NULL COMMENT &#39;员工所在组ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EMPLOYEE_GROUP_NAME` varchar(32) DEFAULT NULL COMMENT &#39;员工所在组名&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `STATUS` tinyint(1) DEFAULT NULL COMMENT &#39;员工状态：1在职2离职&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CREATE_TIME` datetime DEFAULT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `UPDATE_TIME` datetime DEFAULT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `SYNC_STATUS` tinyint(1) DEFAULT NULL COMMENT &#39;数据修改类型，1-增加,2-更新，3-删除（已同步企业微信时为null)&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EXT_POSITION` varchar(128) DEFAULT NULL COMMENT &#39;对外展示职务&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EMAIL` varchar(64) DEFAULT NULL COMMENT &#39;邮箱&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `IS_WXWORK_USER` tinyint(1) DEFAULT &#39;0&#39; COMMENT &#39;是否是企业微信导购用户&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `AVATAR` varchar(256) DEFAULT NULL COMMENT &#39;员工头像&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DEALER_ID` bigint(11) DEFAULT NULL COMMENT &#39;经销商ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `OUT_EMPLOYEE_ID` varchar(32) DEFAULT NULL COMMENT &#39;外部员工id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CAN_LOGIN_PC` tinyint(1) DEFAULT NULL COMMENT &#39;能否登陆pc&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `AVATAR_CLOUD` varchar(256) DEFAULT NULL COMMENT &#39;员工头像存放在腾讯云url&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `IS_DEPT_MANAGE` tinyint(1) DEFAULT NULL COMMENT &#39;是否分部经理&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EXT_ROLE` varchar(64) DEFAULT NULL COMMENT &#39;外部角色&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (`ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `PHONE` (`PHONE`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_perUserId` (`PER_USER_ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_storeid` (`STORE_ID`),&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_outemployeeid` (`OUT_EMPLOYEE_ID`)&lt;/div&gt;&lt;div&gt;) ENGINE=InnoDB AUTO_INCREMENT=21732 DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-47">
+          <mxGeometry x="30" width="390" height="290" as="geometry">
+            <mxRectangle width="390" height="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-50" value="buz_wxwork_user_rel" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="-680" width="420" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-51" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-50">
+          <mxGeometry y="30" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-52" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-51">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-53" value="`ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-51">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-50">
+          <mxGeometry y="60" width="420" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-55" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-54">
+          <mxGeometry width="30" height="290" as="geometry">
+            <mxRectangle width="30" height="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-56" value="&lt;div&gt;CREATE TABLE `buz_wxwork_user_rel` (&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EP_ID` bigint(20) NOT NULL COMMENT &#39;惟客企业ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EMPLOYEE_ID` bigint(20) NOT NULL COMMENT &#39;惟客企业员工ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CORP_ID` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT &#39;授权企业ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CORP_USER_ID` varchar(64) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;授权企业成员UserID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DELETED` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否已删除&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CREATE_TIME` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `UPDATE_TIME` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `QR_CODE` varchar(1024) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;员工二维码&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CORP_USER_NAME` varchar(128) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;企微成员名称&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (`ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_EP_CORP_EMPLOYEE_ID` (`EP_ID`,`CORP_ID`,`EMPLOYEE_ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_EP_CORP_USER_ID` (`EP_ID`,`CORP_ID`,`CORP_USER_ID`) USING BTREE&lt;/div&gt;&lt;div&gt;) ENGINE=InnoDB AUTO_INCREMENT=10717 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC COMMENT=&#39;惟客员工和企业微信成员关联表&#39;;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-54">
+          <mxGeometry x="30" width="390" height="290" as="geometry">
+            <mxRectangle width="390" height="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0U1Ae2gim0tneBmZpMTz-57" target="0U1Ae2gim0tneBmZpMTz-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="-697" />
+              <mxPoint x="1140" y="-697" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-87" value="store_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-86">
+          <mxGeometry x="-0.502" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-88" value="id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-86">
+          <mxGeometry x="0.6353" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0U1Ae2gim0tneBmZpMTz-57" target="0U1Ae2gim0tneBmZpMTz-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-104" value="dept_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-96">
+          <mxGeometry x="-0.6682" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-105" value="id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-96">
+          <mxGeometry x="0.684" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-57" value="buz_employee_store_role" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="-617" width="420" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-58" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-57">
+          <mxGeometry y="30" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-59" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-58">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-60" value="`ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-58">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-61" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-57">
+          <mxGeometry y="60" width="420" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-62" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-61">
+          <mxGeometry width="30" height="290" as="geometry">
+            <mxRectangle width="30" height="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-63" value="&lt;div&gt;CREATE TABLE `buz_employee_store_role` (&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;主键&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `APP_ID` bigint(20) NOT NULL COMMENT &#39;品牌id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `USER_ID` bigint(20) NOT NULL COMMENT &#39;用户id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ROLE_ID` bigint(20) NOT NULL COMMENT &#39;角色id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `STORE_ID` bigint(20) DEFAULT NULL COMMENT &#39;门店ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `UPDATE_TIME` datetime DEFAULT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CREATE_TIME` datetime DEFAULT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EP_ID` bigint(20) NOT NULL COMMENT &#39;企业id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DEALER_ID` bigint(11) DEFAULT NULL COMMENT &#39;经销商ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DEPT_ID` int(11) DEFAULT NULL COMMENT &#39;部门id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (`ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; UNIQUE KEY `uniq_user_store_role` (`USER_ID`,`STORE_ID`,`ROLE_ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_EP_DEPT_ID` (`DEPT_ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_EP_STORE_ID` (`STORE_ID`) USING BTREE&lt;/div&gt;&lt;div&gt;) ENGINE=InnoDB AUTO_INCREMENT=975224 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC COMMENT=&#39;门店角色绑定表&#39;;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-61">
+          <mxGeometry x="30" width="390" height="290" as="geometry">
+            <mxRectangle width="390" height="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-64" value="buz_dept_info" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="-84" width="420" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-65" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-64">
+          <mxGeometry y="30" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-66" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-65">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-67" value="`ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-65">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-68" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-64">
+          <mxGeometry y="60" width="420" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-69" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-68">
+          <mxGeometry width="30" height="300" as="geometry">
+            <mxRectangle width="30" height="300" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-70" value="&lt;div&gt;CREATE TABLE `buz_dept_info` (&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT &#39;主键ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EP_ID` bigint(20) unsigned NOT NULL COMMENT &#39;企业ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `NAME` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT &#39;部门名称&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DEPT_ID` int(10) unsigned NOT NULL COMMENT &#39;部门ID,根结点部门为1&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `PARENT_ID` int(10) unsigned NOT NULL COMMENT &#39;直属上级部门ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ORDER_NUM` int(10) unsigned NOT NULL COMMENT &#39;部门的次序值。order值大的排序靠前。&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `STORE_ID` bigint(20) DEFAULT NULL COMMENT &#39;企业门店ID，部门类型时为NULL&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `SYNC_STATUS` tinyint(3) unsigned DEFAULT NULL COMMENT &#39;数据修改类型，1-增加,2-更新，3-删除（已同步企业微信时为null)&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DELETED` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否已删除&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CREATE_TIME` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `UPDATE_TIME` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DEALER_ID` bigint(20) DEFAULT NULL COMMENT &#39;经销商id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EXT_JSON` varchar(2048) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;扩展JSON信息&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `TYPE` tinyint(4) DEFAULT NULL COMMENT &#39;类型 1-部门 2-经销商 3-门店&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DIRECT_STORE_NUM` int(11) DEFAULT NULL COMMENT &#39;直属部门数量&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DEALER_NO` varchar(20) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;经销商编号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `APP_ID` bigint(20) DEFAULT NULL COMMENT &#39;品牌id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `OUT_DEPT_NO` varchar(256) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;外部组织部门编号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `WXWORK_DEPT_ID` int(11) DEFAULT NULL COMMENT &#39;企微部门id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (`ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; UNIQUE KEY `idx_EP_DEPT_ID` (`DEPT_ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_DEALER_ID` (`DEALER_ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_EP_STORE_ID` (`STORE_ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_EP_WXWORK_DEPT_ID` (`WXWORK_DEPT_ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `idx_outdeptno` (`OUT_DEPT_NO`)&lt;/div&gt;&lt;div&gt;) ENGINE=InnoDB AUTO_INCREMENT=1787 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC COMMENT=&#39;惟客企业部门信息&#39;;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-68">
+          <mxGeometry x="30" width="390" height="300" as="geometry">
+            <mxRectangle width="390" height="300" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-71" value="buz_store" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="-1097" width="420" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-71">
+          <mxGeometry y="30" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-73" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-72">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-74" value="`ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-72">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-75" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-71">
+          <mxGeometry y="60" width="420" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-76" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-75">
+          <mxGeometry width="30" height="300" as="geometry">
+            <mxRectangle width="30" height="300" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-77" value="&lt;div&gt;CREATE TABLE `buz_store` (&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ID` bigint(20) NOT NULL AUTO_INCREMENT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EP_ID` bigint(20) NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DEP_ID` bigint(20) DEFAULT NULL COMMENT &#39;门店所属部门组织ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `NAME` varchar(64) NOT NULL COMMENT &#39;门店名称&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ABBREVIATION` varchar(64) NOT NULL DEFAULT &#39;&#39; COMMENT &#39;门店名简称&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `SEQ` int(11) NOT NULL COMMENT &#39;序号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `STATUS` int(11) NOT NULL COMMENT &#39;状态 0-未启用，1-已启用&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `PROVINCE` varchar(12) DEFAULT NULL COMMENT &#39;省&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `PROVINCE_ID` bigint(20) DEFAULT NULL COMMENT &#39;省区域ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CITY` varchar(32) DEFAULT NULL COMMENT &#39;市&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CITY_ID` bigint(20) DEFAULT NULL COMMENT &#39;市区域ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DISTRICT` varchar(32) DEFAULT NULL COMMENT &#39;区&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DISTRICT_ID` bigint(20) DEFAULT NULL COMMENT &#39;区区域ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ADDRESS` varchar(128) DEFAULT NULL COMMENT &#39;详细地址&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `OWNER_ID` bigint(20) DEFAULT NULL COMMENT &#39;店长用户ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `TEL` varchar(100) DEFAULT NULL COMMENT &#39;店铺联系方式&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DEVIATION` int(11) DEFAULT &#39;0&#39; COMMENT &#39;AP设备探测距离偏差&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `LENGTH` double DEFAULT &#39;10&#39; COMMENT &#39;店铺长度&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `WIDTH` double DEFAULT &#39;10&#39; COMMENT &#39;店铺宽度&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `FILTER_DISTANCE` double DEFAULT &#39;10&#39; COMMENT &#39;探测距离阀值&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `WINDOW_TIME` int(11) DEFAULT &#39;1800&#39; COMMENT &#39;二次进店逻辑滑动窗口阀值&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `MON_BSSID` varchar(128) DEFAULT NULL COMMENT &#39;设备连接MAC&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `BUSINESS_START_HOUR` float DEFAULT &#39;9&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `BUSINESS_END_HOUR` float DEFAULT &#39;21&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `AP_DATA` text,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `AP_FILTER` varchar(1024) DEFAULT &#39;{&quot;windowTimes&quot;:1800}&#39; COMMENT &#39;旧版配置参数&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `LONGITUDE` varchar(24) DEFAULT NULL COMMENT &#39;门店经度&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `LATITUDE` varchar(24) DEFAULT NULL COMMENT &#39;门店纬度&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `AREA` double DEFAULT NULL COMMENT &#39;门店面积&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `EXT` varchar(128) DEFAULT NULL COMMENT &#39;扩展字段&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `AVG_PRICE` int(3) DEFAULT NULL COMMENT &#39;门店营业星期&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `FIELD` varchar(20) DEFAULT NULL COMMENT &#39;门店所属板块（领域）&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `APP_ID` bigint(20) DEFAULT NULL COMMENT &#39;店铺id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DESCRIBE` varchar(256) DEFAULT NULL COMMENT &#39;描述&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `TYPE` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;门店类型（0：门店 1：商圈）&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `BUSINESS_DAYOFWEEK` int(3) DEFAULT &#39;127&#39; COMMENT &#39;门店营业星期&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `UPDATE_TIME` datetime DEFAULT NULL COMMENT &#39;最后更新时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CREATE_TIME` datetime DEFAULT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `SOURCE` tinyint(1) DEFAULT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `LOGO` varchar(128) DEFAULT NULL COMMENT &#39;门店logo&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `LEAST_AP_COUNT` int(11) DEFAULT &#39;2&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `IS_OPEN` int(1) DEFAULT &#39;1&#39; COMMENT &#39;是否营业 1-营业，0-打烊&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `OUT_STORE_ID` varchar(64) DEFAULT NULL COMMENT &#39;外部门店编号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `NEED_SYNC_ITEM` int(11) DEFAULT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `TAG` bigint(20) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;标识字段，用来标识门店是否使用某项功能，如第一位为0表示支持自提的物流方式&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `PARENT_ID` bigint(20) DEFAULT NULL COMMENT &#39;父id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `REGION_ID` bigint(20) DEFAULT NULL COMMENT &#39;区域ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `MODE` tinyint(1) DEFAULT &#39;0&#39; COMMENT &#39;模式, 0:直营; 1:经销商&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `DEALER_ID` bigint(11) DEFAULT NULL COMMENT &#39;经销商ID&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `MERCHANT_TYPE` tinyint(1) DEFAULT &#39;0&#39; COMMENT &#39;0-普通商户 1-平台自营 2-品牌自营&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `QUALIFICATION_URL` varchar(2550) DEFAULT NULL COMMENT &#39;营业资质&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ADMIN_ID` bigint(11) DEFAULT NULL COMMENT &#39;管理员id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CONTACT_NAME` varchar(255) DEFAULT NULL COMMENT &#39;联系人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CONTACT_PHONE` varchar(255) DEFAULT NULL COMMENT &#39;联系人手机号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `SYN_BRAND_TEMPLATE` tinyint(4) unsigned DEFAULT &#39;0&#39; COMMENT &#39;是否同步品牌模板&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `LABEL` varchar(255) DEFAULT NULL COMMENT &#39;门店标签(多个用“,”分隔开)&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CATEGORY` varchar(50) DEFAULT NULL COMMENT &#39;经营类目&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `CATEGORY_ID` varchar(20) DEFAULT NULL COMMENT &#39;经营类目id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `OUT_DEALER_ID` varchar(64) DEFAULT NULL COMMENT &#39;外部经销商id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `HOTEL_NAME` varchar(20) DEFAULT NULL COMMENT &#39;酒店名称&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `SHOP_TYPE` int(11) DEFAULT NULL COMMENT &#39;门店类型&amp;nbsp; 1-零售门店&amp;nbsp; 2-家装门店&amp;nbsp; 3-总部门店&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; PRIMARY KEY (`ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `IDX_DEP_ID` (`DEP_ID`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `IDX_PROVINCE_CITY` (`PROVINCE`,`CITY`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `IDX_APP_ID` (`APP_ID`,`STATUS`) USING BTREE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `IDX_EP_ID_SHOP_CODE` (`EP_ID`,`SHOP_TYPE`),&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `IDX_EP_OUT_STORE_ID` (`EP_ID`,`OUT_STORE_ID`)&lt;/div&gt;&lt;div&gt;) ENGINE=InnoDB AUTO_INCREMENT=1492 DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;品牌门店表&#39;;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="0U1Ae2gim0tneBmZpMTz-75">
+          <mxGeometry x="30" width="390" height="300" as="geometry">
+            <mxRectangle width="390" height="300" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0U1Ae2gim0tneBmZpMTz-61" target="0U1Ae2gim0tneBmZpMTz-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-79" value="per_user_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-78">
+          <mxGeometry x="0.8302" y="-5" relative="1" as="geometry">
+            <mxPoint x="39" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-80" value="user_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-78">
+          <mxGeometry x="-0.7496" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.447;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0U1Ae2gim0tneBmZpMTz-47" target="0U1Ae2gim0tneBmZpMTz-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="-500" />
+              <mxPoint x="120" y="-500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-90" value="id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-89">
+          <mxGeometry x="-0.4746" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-91" value="employee_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-89">
+          <mxGeometry x="0.8092" y="-5" relative="1" as="geometry">
+            <mxPoint x="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0U1Ae2gim0tneBmZpMTz-39" target="0U1Ae2gim0tneBmZpMTz-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-116" value="role_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-115">
+          <mxGeometry x="-0.5848" y="4" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-117" value="id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0U1Ae2gim0tneBmZpMTz-115">
+          <mxGeometry x="0.6475" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
