@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T03:59:24.599Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="17esvnKyirGKiGNmMUvT" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-25T07:32:52.852Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="j_CwXwgLVw4WiumPXmku" version="21.6.5" type="github">
   <diagram name="第 1 页" id="v13Tga0opJ_VagtoMVjJ">
-    <mxGraphModel dx="6861" dy="4098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5498" dy="3218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="G97xu8YOoIPIuhDE5bah-65" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="-3410" y="1000" width="1780" height="1310" as="geometry" />
+        </mxCell>
         <mxCell id="NSwK4JqKExf3FO7wUMZo-9" value="wk_business" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=5;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-440" y="-1210" width="2020" height="1550" as="geometry" />
         </mxCell>
@@ -181,7 +184,7 @@
             <mxRectangle width="390" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0U1Ae2gim0tneBmZpMTz-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;strokeWidth=2;" parent="1" source="0U1Ae2gim0tneBmZpMTz-43" target="0U1Ae2gim0tneBmZpMTz-5" edge="1">
+        <mxCell id="0U1Ae2gim0tneBmZpMTz-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" parent="1" source="0U1Ae2gim0tneBmZpMTz-43" target="0U1Ae2gim0tneBmZpMTz-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0U1Ae2gim0tneBmZpMTz-109" value="per_user_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0U1Ae2gim0tneBmZpMTz-107" vertex="1" connectable="0">
@@ -515,6 +518,9 @@
         <mxCell id="NSwK4JqKExf3FO7wUMZo-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="NSwK4JqKExf3FO7wUMZo-112" target="NSwK4JqKExf3FO7wUMZo-132" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#FF0000;" edge="1" parent="1" source="NSwK4JqKExf3FO7wUMZo-112" target="G97xu8YOoIPIuhDE5bah-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NSwK4JqKExf3FO7wUMZo-112" value="wk_wxwork.corp_ext_user_info（企业微信外部联系人信息表&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-2660" y="80" width="610" height="310" as="geometry" />
         </mxCell>
@@ -637,7 +643,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NSwK4JqKExf3FO7wUMZo-141" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;wk_wxwork 企微相关&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=40;" parent="1" vertex="1">
-          <mxGeometry x="-3510" y="-1140" width="550" height="110" as="geometry" />
+          <mxGeometry x="-3530" y="-1169" width="550" height="110" as="geometry" />
         </mxCell>
         <mxCell id="NSwK4JqKExf3FO7wUMZo-142" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;wk_wxwork.corp_ext_user_event（企微部门成员联系人事件）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-3470" y="-350" width="600" height="250" as="geometry" />
@@ -725,7 +731,7 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NSwK4JqKExf3FO7wUMZo-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.002;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#FF3333;" parent="1" source="0U1Ae2gim0tneBmZpMTz-54" target="NSwK4JqKExf3FO7wUMZo-94" edge="1">
+        <mxCell id="NSwK4JqKExf3FO7wUMZo-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.002;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#FF0000;" parent="1" source="0U1Ae2gim0tneBmZpMTz-54" target="NSwK4JqKExf3FO7wUMZo-94" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NSwK4JqKExf3FO7wUMZo-164" value="corp_user_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NSwK4JqKExf3FO7wUMZo-162" vertex="1" connectable="0">
@@ -739,13 +745,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NSwK4JqKExf3FO7wUMZo-166" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;wk_business 员工相关&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=40;" parent="1" vertex="1">
-          <mxGeometry x="-420" y="-1170" width="550" height="110" as="geometry" />
+          <mxGeometry x="-430" y="-1200" width="550" height="110" as="geometry" />
         </mxCell>
         <mxCell id="NSwK4JqKExf3FO7wUMZo-167" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;wk_permission 用户授权相关&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=40;" parent="1" vertex="1">
           <mxGeometry x="-930" y="1000" width="630" height="110" as="geometry" />
         </mxCell>
         <mxCell id="G97xu8YOoIPIuhDE5bah-22" value="client_stage（客户阶段）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-3160" y="1400" width="430" height="250" as="geometry" />
+          <mxGeometry x="-2720" y="1590" width="430" height="250" as="geometry" />
         </mxCell>
         <mxCell id="G97xu8YOoIPIuhDE5bah-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-22">
           <mxGeometry y="30" width="430" height="30" as="geometry" />
@@ -774,7 +780,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="G97xu8YOoIPIuhDE5bah-29" value="client_bind_setting（企业客户绑定规则设置）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-2570" y="1400" width="430" height="250" as="geometry" />
+          <mxGeometry x="-2220" y="1590" width="430" height="250" as="geometry" />
         </mxCell>
         <mxCell id="G97xu8YOoIPIuhDE5bah-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-29">
           <mxGeometry y="30" width="430" height="30" as="geometry" />
@@ -803,7 +809,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="G97xu8YOoIPIuhDE5bah-36" value="client_info（客户信息）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-2830" y="960" width="430" height="250" as="geometry" />
+          <mxGeometry x="-2390" y="1220" width="430" height="250" as="geometry" />
         </mxCell>
         <mxCell id="G97xu8YOoIPIuhDE5bah-37" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-36">
           <mxGeometry y="30" width="430" height="30" as="geometry" />
@@ -832,7 +838,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="G97xu8YOoIPIuhDE5bah-43" value="client_employee_bind（客户员工绑定关系表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-3390" y="1040" width="430" height="250" as="geometry" />
+          <mxGeometry x="-2920" y="1260" width="430" height="250" as="geometry" />
         </mxCell>
         <mxCell id="G97xu8YOoIPIuhDE5bah-44" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-43">
           <mxGeometry y="30" width="430" height="30" as="geometry" />
@@ -859,6 +865,67 @@
           <mxGeometry x="30" width="400" height="190" as="geometry">
             <mxRectangle width="400" height="190" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-50" value="client_message_notification_task（客户消息提醒任务表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-3020" y="1930" width="430" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-51" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-50">
+          <mxGeometry y="30" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-52" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-51">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-53" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-51">
+          <mxGeometry x="30" width="400" height="30" as="geometry">
+            <mxRectangle width="400" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-50">
+          <mxGeometry y="60" width="430" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-55" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-54">
+          <mxGeometry width="30" height="190" as="geometry">
+            <mxRectangle width="30" height="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-56" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;YLrPdt7Foo4dSDxoeuHca6s7nCh&quot;&gt;&lt;div class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot; style=&quot;&quot;&gt;&lt;div class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;CREATE TABLE `client_message_notification_task` (&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT &#39;主键ID&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `EP_ID` bigint(20) unsigned NOT NULL COMMENT &#39;企业ID(0为默认模板)&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `TASK_NAME` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT &#39;消息提醒名称&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `EVENT_TYPE` tinyint(4) unsigned NOT NULL COMMENT &#39;消息提醒事件类型。1-收到线索分配,2-客户阶段变更,3-小区交付&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `RELATION_ID` bigint(20) DEFAULT NULL COMMENT &#39;业务关联ID，TASK_TYPE=3时为小区主键ID&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `START_CONDITION` int(10) unsigned DEFAULT NULL COMMENT &#39;开始条件。TASK_TYPE=2时为客户stageId,TASK_TYPE=3时为小区交付前n天&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `END_CONDITION` varchar(32) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT &#39;结束条件(可为多条，多条逗号分隔)。TASK_TYPE=1or2时为客户stageId,TASK_TYPE=3时为小区交付前后n天,为负数代表交付后n天&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `REMIND_CYCLE` tinyint(4) unsigned NOT NULL COMMENT &#39;提醒周期,1-每日提醒2-每周提醒3-每月提醒&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `REMIND_TIME` tinyint(4) unsigned NOT NULL COMMENT &#39;提醒时间,单位整点,暂时只支持整点,例:下午9点为21&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `REMIND_THRESHOLD` tinyint(4) unsigned NOT NULL COMMENT &#39;提醒次数上限，单位天&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `DYNAMIC_FIELD` varchar(512) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT &#39;动态字段&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `IS_SEND_WXWORK_MSG` tinyint(1) unsigned DEFAULT &#39;0&#39; COMMENT &#39;是否发送企业微信消息&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `WXWORK_MSG_BODY` varchar(2048) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;发送企微消息信息&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `RADAR_MSG_BODY` varchar(512) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT &#39;雷达通知信息&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `ENABLED` tinyint(1) unsigned DEFAULT &#39;0&#39; COMMENT &#39;是否开启提醒(1开启, 0关闭)&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `DELETED` tinyint(1) unsigned DEFAULT &#39;0&#39; COMMENT &#39;是否删除0-否1-是&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `CREATE_USER_ID` bigint(20) unsigned NOT NULL COMMENT &#39;创建人USER_ID&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `CREATE_USER_NAME` varchar(32) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT &#39;创建人名称&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `UPDATE_TIME` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `CREATE_TIME` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; PRIMARY KEY (`ID`) USING BTREE&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT=&#39;客户消息提醒任务表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-54">
+          <mxGeometry x="30" width="400" height="190" as="geometry">
+            <mxRectangle width="400" height="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-58" value="client_stage_change_record（客户阶段变更记录表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-3250" y="1590" width="430" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-59" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-58">
+          <mxGeometry y="30" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-60" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-59">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-61" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-59">
+          <mxGeometry x="30" width="400" height="30" as="geometry">
+            <mxRectangle width="400" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-62" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-58">
+          <mxGeometry y="60" width="430" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-63" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-62">
+          <mxGeometry width="30" height="190" as="geometry">
+            <mxRectangle width="30" height="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-64" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;YLrPdt7Foo4dSDxoeuHca6s7nCh&quot;&gt;&lt;div class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot; style=&quot;&quot;&gt;&lt;div class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;CREATE TABLE `client_stage_change_record` (&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT &#39;主键ID&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `EP_ID` bigint(20) unsigned NOT NULL COMMENT &#39;企业ID&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `STORE_ID` bigint(20) unsigned DEFAULT NULL COMMENT &#39;门店ID&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `CLIENT_ID` bigint(20) unsigned NOT NULL COMMENT &#39;客户ID&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `LAST_STAGE_ID` int(10) unsigned DEFAULT NULL COMMENT &#39;更改前阶段ID,可为null&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `UPDATE_STAGE_ID` int(10) unsigned NOT NULL COMMENT &#39;更改后的阶段ID&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `UPDATE_EMPLOYEE_ID` bigint(20) unsigned NOT NULL COMMENT &#39;更改当前客户阶段的惟客宝员工ID,0-为系统更改&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `UPDATE_EMPLOYEE_NAME` varchar(32) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;更改当前客户阶段的惟客宝员工名称&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `UPDATE_REMARK` varchar(64) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT &#39;客户阶段变更备注&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `HAS_EXECUTED` tinyint(1) DEFAULT &#39;0&#39; COMMENT &#39;是否被导购客户消息提醒任务执行规则判断&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; `CREATE_TIME` datetime NOT NULL COMMENT &#39;阶段更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; PRIMARY KEY (`ID`) USING BTREE,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;&amp;nbsp; KEY `idx_EP_STORE_CLIENT_ID` (`EP_ID`,`STORE_ID`,`CLIENT_ID`) USING BTREE&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;old-record-id-FmYydZvrjogUZuxv6E2cjADqneS&quot;&gt;) ENGINE=InnoDB AUTO_INCREMENT=1361808 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC COMMENT=&#39;客户阶段变更记录表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="G97xu8YOoIPIuhDE5bah-62">
+          <mxGeometry x="30" width="400" height="190" as="geometry">
+            <mxRectangle width="400" height="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-66" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;wk_crm 客户相关&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="-3380" y="1010" width="440" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
