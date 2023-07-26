@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T07:32:52.852Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="j_CwXwgLVw4WiumPXmku" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-26T03:05:38.713Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="LOEWGE5Qq_cUGxgUBpvs" version="21.6.5" type="github">
   <diagram name="第 1 页" id="v13Tga0opJ_VagtoMVjJ">
-    <mxGraphModel dx="5498" dy="3218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5603" dy="3286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -926,6 +926,36 @@
         </mxCell>
         <mxCell id="G97xu8YOoIPIuhDE5bah-66" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;wk_crm 客户相关&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=40;" vertex="1" parent="1">
           <mxGeometry x="-3380" y="1010" width="440" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G97xu8YOoIPIuhDE5bah-69" target="0U1Ae2gim0tneBmZpMTz-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-71" value="2. 手机号、工号、修改动作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G97xu8YOoIPIuhDE5bah-70">
+          <mxGeometry x="-0.4824" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G97xu8YOoIPIuhDE5bah-69" target="G97xu8YOoIPIuhDE5bah-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-76" value="1. 账号id、手机号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G97xu8YOoIPIuhDE5bah-75">
+          <mxGeometry x="-0.1061" y="4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-69" value="hrm1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-1090" width="280" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.999;entryY=0.298;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G97xu8YOoIPIuhDE5bah-72" target="NSwK4JqKExf3FO7wUMZo-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-74" value="user_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G97xu8YOoIPIuhDE5bah-73">
+          <mxGeometry x="-0.6167" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G97xu8YOoIPIuhDE5bah-72" value="企微" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="-1097" width="280" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
