@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T10:25:48.259Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="E8nSONXf-8TmzCX1XhGF" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-21T10:27:33.072Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="OBcrwXmkbH4rT5qziH70" version="21.6.8" type="github">
   <diagram name="第 1 页" id="de748oIVJeChQEEVJ22J">
-    <mxGraphModel dx="4175" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5043" dy="2289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,10 +147,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-43" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_user_send_record（sop用户发送记录表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-2260" y="820" width="540" height="270" as="geometry" />
+          <mxGeometry x="-2240" y="810" width="500" height="260" as="geometry" />
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-44" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-43">
-          <mxGeometry y="30" width="540" height="30" as="geometry" />
+          <mxGeometry y="30" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-45" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-44">
           <mxGeometry width="30" height="30" as="geometry">
@@ -158,21 +158,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-46" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-44">
-          <mxGeometry x="30" width="510" height="30" as="geometry">
-            <mxRectangle width="510" height="30" as="alternateBounds" />
+          <mxGeometry x="30" width="470" height="30" as="geometry">
+            <mxRectangle width="470" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-47" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-43">
-          <mxGeometry y="60" width="540" height="210" as="geometry" />
+          <mxGeometry y="60" width="500" height="200" as="geometry" />
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-48" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-47">
-          <mxGeometry width="30" height="210" as="geometry">
-            <mxRectangle width="30" height="210" as="alternateBounds" />
+          <mxGeometry width="30" height="200" as="geometry">
+            <mxRectangle width="30" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-49" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;CREATE TABLE `sop_user_send_record` (&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `user_task_id` bigint(20) NOT NULL COMMENT &#39;用户任务id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `attachment_id` bigint(20) NOT NULL COMMENT &#39;附件id&#39;,&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `executor` varchar(64) NOT NULL COMMENT &#39;执行人(工号)&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `receiver` varchar(64) NOT NULL COMMENT &#39;接收人&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop用户任务发送记录表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-47">
-          <mxGeometry x="30" width="510" height="210" as="geometry">
-            <mxRectangle width="510" height="210" as="alternateBounds" />
+          <mxGeometry x="30" width="470" height="200" as="geometry">
+            <mxRectangle width="470" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.488;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-33" target="-qIdUn-uNaCTuJ1rHyCA-43">
