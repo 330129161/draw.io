@@ -1,9 +1,282 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T05:43:47.218Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.6.8" etag="Rmh0HBgH6mfbhCQTiEo2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-21T06:31:16.272Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="fT7mLqkiuiMRNClEBWCb" version="21.6.8" type="github">
   <diagram name="第 1 页" id="de748oIVJeChQEEVJ22J">
-    <mxGraphModel>
+    <mxGraphModel dx="5043" dy="2289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-1" target="-qIdUn-uNaCTuJ1rHyCA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-54" value="id:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qIdUn-uNaCTuJ1rHyCA-53">
+          <mxGeometry x="-0.7517" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-55" value="task_id:n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qIdUn-uNaCTuJ1rHyCA-53">
+          <mxGeometry x="0.5069" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-1" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_task（sop任务表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2260" y="-790" width="550" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-1">
+          <mxGeometry y="30" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-3" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-2">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-4" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-2">
+          <mxGeometry x="30" width="520" height="30" as="geometry">
+            <mxRectangle width="520" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-1">
+          <mxGeometry y="60" width="550" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-6" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-5">
+          <mxGeometry width="30" height="270" as="geometry">
+            <mxRectangle width="30" height="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-7" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;CREATE TABLE `sop_task` (&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `name` varchar(64) NOT NULL COMMENT &#39;任务名称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `type` tinyint(4)&amp;nbsp; NOT NULL COMMENT &#39;任务类型 1. 定时任务 2. 事件任务&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `status` tinyint(4)&amp;nbsp; NOT NULL COMMENT &#39;任务状态：0.无效，1.有效&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `description` text COMMENT &#39;任务描述&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_scene` tinyint(4) NOT NULL COMMENT &#39;业务场景 1.家装 2.零售&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_type` tinyint(4) NOT NULL COMMENT &#39;业务类型 1.跟单任务 2.营销推广&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `trigger_scene` tinyint(4) NOT NULL COMMENT &#39;触达场景 1. 1v1聊天 2. 客户所在群聊&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `effective_start_date` datetime COMMENT &#39;有效期-开始时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `effective_end_date` datetime COMMENT &#39;有效期-结束时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;) ENGINE=InnoDB&amp;nbsp; DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop任务表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-5">
+          <mxGeometry x="30" width="520" height="270" as="geometry">
+            <mxRectangle width="520" height="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-8" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_task_business_config（sop任务业务配置表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-3110" y="-390" width="550" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-9" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-8">
+          <mxGeometry y="30" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-10" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-9">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-11" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-9">
+          <mxGeometry x="30" width="520" height="30" as="geometry">
+            <mxRectangle width="520" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-12" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-8">
+          <mxGeometry y="60" width="550" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-13" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-12">
+          <mxGeometry width="30" height="190" as="geometry">
+            <mxRectangle width="30" height="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-14" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;CREATE TABLE `sop_task_business_config` (&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `task_id` bigint(20) NOT NULL COMMENT &#39;任务id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `key` varchar(64) NOT NULL COMMENT &#39;配置key&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `name` varchar(64) NOT NULL COMMENT &#39;配置名称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;) ENGINE=InnoDB&amp;nbsp; DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop任务业务配置表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-12">
+          <mxGeometry x="30" width="520" height="190" as="geometry">
+            <mxRectangle width="520" height="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-15" target="-qIdUn-uNaCTuJ1rHyCA-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-65" value="id: 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qIdUn-uNaCTuJ1rHyCA-63">
+          <mxGeometry x="-0.5019" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-66" value="sub_task_id：n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qIdUn-uNaCTuJ1rHyCA-63">
+          <mxGeometry x="0.5626" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-15" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_sub_task（sop子任务表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2260" y="-230" width="550" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-16" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-15">
+          <mxGeometry y="30" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-17" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-16">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-18" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-16">
+          <mxGeometry x="30" width="520" height="30" as="geometry">
+            <mxRectangle width="520" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-15">
+          <mxGeometry y="60" width="550" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-20" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-19">
+          <mxGeometry width="30" height="220" as="geometry">
+            <mxRectangle width="30" height="220" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-21" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;CREATE TABLE `sop_sub_task` (&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `task_id` bigint(20) NOT NULL COMMENT &#39;任务id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `name` varchar(64) NOT NULL COMMENT &#39;子任务名称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `content` text NOT NULL COMMENT &#39;文本内容&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `effective_start_date` datetime COMMENT &#39;有效期-开始时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `effective_end_date` datetime COMMENT &#39;有效期-结束时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop子任务表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-19">
+          <mxGeometry x="30" width="520" height="220" as="geometry">
+            <mxRectangle width="520" height="220" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-22" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_sub_task_attachment（sop子任务附件表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1440" y="-227.5" width="550" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-22">
+          <mxGeometry y="30" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-24" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-23">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-25" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-23">
+          <mxGeometry x="30" width="520" height="30" as="geometry">
+            <mxRectangle width="520" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-26" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-22">
+          <mxGeometry y="60" width="550" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-27" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-26">
+          <mxGeometry width="30" height="215" as="geometry">
+            <mxRectangle width="30" height="215" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-28" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;CREATE TABLE `sop_sub_task_attachment` (&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `sub_task_id` bigint(20) NOT NULL COMMENT &#39;子任务id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `type` tinyint(4) DEFAULT &#39;0&#39;&amp;nbsp; NOT NULL COMMENT &#39;附件类型&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `properties` text NOT NULL COMMENT &#39;属性(json字符串)&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `sort` int(10) NOT NULL default &#39;0&#39; COMMENT &#39;排序&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop子任务附件表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-26">
+          <mxGeometry x="30" width="520" height="215" as="geometry">
+            <mxRectangle width="520" height="215" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-29" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_user_sub_task（sop用户任务表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2260" y="210" width="550" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-29">
+          <mxGeometry y="30" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-31" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-30">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-32" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-30">
+          <mxGeometry x="30" width="520" height="30" as="geometry">
+            <mxRectangle width="520" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-33" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-29">
+          <mxGeometry y="60" width="550" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-34" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-33">
+          <mxGeometry width="30" height="290" as="geometry">
+            <mxRectangle width="30" height="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-35" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CREATE TABLE `sop_user_sub_task` (&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `task_id` bigint(20) NOT NULL COMMENT &#39;任务id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `task_name` varchar(64) NOT NULL COMMENT &#39;任务名称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `sub_task_id&amp;nbsp;` bigint(20) NOT NULL COMMENT &#39;子任务id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `sub_task_name` varchar(64) NOT NULL COMMENT &#39;子任务名称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `executor` varchar(64) NOT NULL COMMENT &#39;执行人(工号)&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_scene` tinyint(4) NOT NULL COMMENT &#39;业务场景 1.家装 2.零售&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_type` tinyint(4) NOT NULL COMMENT &#39;业务类型 1.跟单任务 2.营销推广&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `trigger_scene` tinyint(4) NOT NULL COMMENT &#39;触达场景 1. 1v1聊天 2. 客户所在群聊&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `status` tinyint(4) DEFAULT &#39;0&#39; COMMENT &#39;任务状态：0.未完成，1.已完成&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop用户任务表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-33">
+          <mxGeometry x="30" width="520" height="290" as="geometry">
+            <mxRectangle width="520" height="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-43" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_user_send_record（sop用户发送记录表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2260" y="750" width="540" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-44" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-43">
+          <mxGeometry y="30" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-45" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-44">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-46" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-44">
+          <mxGeometry x="30" width="510" height="30" as="geometry">
+            <mxRectangle width="510" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-47" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-43">
+          <mxGeometry y="60" width="540" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-48" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-47">
+          <mxGeometry width="30" height="190" as="geometry">
+            <mxRectangle width="30" height="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-49" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;CREATE TABLE `sop_user_send_record` (&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `user_task_id` bigint(20) NOT NULL COMMENT &#39;用户任务id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `executor` varchar(64) NOT NULL COMMENT &#39;执行人(工号)&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `receiver` varchar(64) NOT NULL COMMENT &#39;接收人&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop用户任务发送记录表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-47">
+          <mxGeometry x="30" width="510" height="190" as="geometry">
+            <mxRectangle width="510" height="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.488;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-33" target="-qIdUn-uNaCTuJ1rHyCA-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1710" y="935" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-51" value="id:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qIdUn-uNaCTuJ1rHyCA-50">
+          <mxGeometry x="-0.6864" y="-6" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-52" value="user_task_id:n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qIdUn-uNaCTuJ1rHyCA-50">
+          <mxGeometry x="0.5047" y="-3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-5" target="-qIdUn-uNaCTuJ1rHyCA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-58" value="task_id:n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qIdUn-uNaCTuJ1rHyCA-56">
+          <mxGeometry x="0.8331" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-59" value="id:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qIdUn-uNaCTuJ1rHyCA-56">
+          <mxGeometry x="-0.824" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-26" target="-qIdUn-uNaCTuJ1rHyCA-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-61" value="sub_task_id:n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qIdUn-uNaCTuJ1rHyCA-60">
+          <mxGeometry x="-0.4787" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-62" value="id:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qIdUn-uNaCTuJ1rHyCA-60">
+          <mxGeometry x="0.725" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-68" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_user_sub_task_ext（sop用户任务扩展信息）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-3060" y="260" width="550" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-69" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-68">
+          <mxGeometry y="30" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-70" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-69">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-71" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-69">
+          <mxGeometry x="30" width="520" height="30" as="geometry">
+            <mxRectangle width="520" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-68">
+          <mxGeometry y="60" width="550" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-73" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-72">
+          <mxGeometry width="30" height="190" as="geometry">
+            <mxRectangle width="30" height="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-74" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;CREATE TABLE `sop_task_business_config` (&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `task_id` bigint(20) NOT NULL COMMENT &#39;任务id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `key` varchar(64) NOT NULL COMMENT &#39;配置key&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `name` varchar(64) NOT NULL COMMENT &#39;配置名称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;) ENGINE=InnoDB&amp;nbsp; DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop任务业务配置表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="-qIdUn-uNaCTuJ1rHyCA-72">
+          <mxGeometry x="30" width="520" height="190" as="geometry">
+            <mxRectangle width="520" height="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-33" target="-qIdUn-uNaCTuJ1rHyCA-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
