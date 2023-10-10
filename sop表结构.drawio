@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T03:23:37.287Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="PF5A2IWMinMvLd9AXcys" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T03:49:26.631Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="J6J-qiK5IzFEknQH3hEQ" version="21.7.5" type="github">
   <diagram name="第 1 页" id="de748oIVJeChQEEVJ22J">
-    <mxGraphModel dx="4430" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5693" dy="2709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,7 +18,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-1" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_task（sop任务表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-2240" y="-910" width="550" height="440" as="geometry" />
+          <mxGeometry x="-2240" y="-910" width="550" height="480" as="geometry" />
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="-qIdUn-uNaCTuJ1rHyCA-1" vertex="1">
           <mxGeometry y="30" width="550" height="30" as="geometry" />
@@ -34,16 +34,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="-qIdUn-uNaCTuJ1rHyCA-1" vertex="1">
-          <mxGeometry y="60" width="550" height="380" as="geometry" />
+          <mxGeometry y="60" width="550" height="420" as="geometry" />
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-6" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="-qIdUn-uNaCTuJ1rHyCA-5" vertex="1">
-          <mxGeometry width="30" height="380" as="geometry">
-            <mxRectangle width="30" height="380" as="alternateBounds" />
+          <mxGeometry width="30" height="420" as="geometry">
+            <mxRectangle width="30" height="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-7" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;Co8VdgC0moM7NCxHO37cvej0neh&quot;&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot; style=&quot;&quot;&gt;CREATE TABLE `sop_task` (&lt;br&gt;  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;br&gt;  `name` varchar(64) NOT NULL COMMENT &#39;任务名称&#39;,&lt;br&gt;  `type` tinyint(4)  NOT NULL COMMENT &#39;任务类型 &lt;font color=&quot;#ff0000&quot;&gt;1. 定时任务 &lt;/font&gt;2. 事件任务&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot; style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;`category` tinyint(4) NOT NULL DEFAULT 0 COMMENT &#39;任务分类 0. sop 1.营销推广&#39;,&lt;/font&gt;&lt;br&gt;  `status` tinyint(4)  NOT NULL COMMENT &#39;任务状态：0.关闭，1.开启&#39;,&lt;br&gt;  `description` text COMMENT &#39;任务描述&#39;,&lt;br&gt;  `business_scene` tinyint(4) NOT NULL COMMENT &#39;业务场景 1.家装 2.零售&#39;,&lt;br&gt;  `business_type` tinyint(4) NOT NULL COMMENT &#39;业务类型 1.跟单任务 2.营销推广&#39;,&lt;br&gt;  `trigger_scene` tinyint(4) NOT NULL COMMENT &#39;触达场景 1. 1v1聊天 2. 客户所在群聊&#39;,&lt;br&gt;  `trigger_rule` varchar(64) NOT NULL COMMENT &#39;触达规则&#39;,&lt;br&gt;  `executor_rule` varchar(64) NOT NULL COMMENT &#39;执行人规则&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot; style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;`effective_start` varchar(128) COMMENT &#39;有效期-开始&#39;,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`effective_end` varchar(128) COMMENT &#39;有效期-结束&#39;,&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot; style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;`schedule_status`&amp;nbsp;tinyint(4)&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;NOT NULL DEFAULT 0 COMMENT &#39;调度状态 0. 未调度 1.已调度&#39;,&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot; style=&quot;&quot;&gt;  `updater_id` varchar(64) DEFAULT NULL COMMENT &#39;更新人&#39;,&lt;br&gt;  `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;br&gt;  `creator_id` varchar(64) DEFAULT NULL COMMENT &#39;创建人&#39;,&lt;br&gt;  `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;br&gt;  `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;br&gt;  PRIMARY KEY (`id`) USING BTREE&lt;br&gt;) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop任务表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="-qIdUn-uNaCTuJ1rHyCA-5" vertex="1">
-          <mxGeometry x="30" width="520" height="380" as="geometry">
-            <mxRectangle width="520" height="380" as="alternateBounds" />
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-7" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;Co8VdgC0moM7NCxHO37cvej0neh&quot;&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot; style=&quot;&quot;&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;CREATE TABLE `sop_task` (&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `name` varchar(64) NOT NULL COMMENT &#39;任务名称&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `type` tinyint(4) NOT NULL COMMENT &#39;任务类型 1. 定时任务 2. 事件任务&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `status` tinyint(4) NOT NULL COMMENT &#39;任务状态：0.关闭，1.开启&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `description` varchar(500) DEFAULT NULL COMMENT &#39;任务描述&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `business_scene` tinyint(4) NOT NULL COMMENT &#39;业务场景 1.家装 2.零售&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `business_type` tinyint(4) NOT NULL COMMENT &#39;业务类型 1.跟单任务 2.营销推广&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `trigger_scene` tinyint(4) NOT NULL COMMENT &#39;触达场景 1. 1v1聊天 2. 客户所在群聊&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `trigger_rule` varchar(128) NOT NULL COMMENT &#39;触达规则&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `executor_rule` varchar(128) NOT NULL COMMENT &#39;执行人规则&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `updater_id` varchar(64) DEFAULT NULL COMMENT &#39;更新人&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `creator_id` varchar(64) DEFAULT NULL COMMENT &#39;创建人&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `category` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;任务分类 0. sop 1.营销推广&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `effective_start` varchar(128) DEFAULT NULL COMMENT &#39;有效期-开始&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `effective_end` varchar(128) DEFAULT NULL COMMENT &#39;有效期-结束&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `schedule_status` tinyint(4) DEFAULT &#39;0&#39; COMMENT &#39; 0. 未调度 1.已调度 2.已过期&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `execute_type` tinyint(4) DEFAULT NULL,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `repeat_type` tinyint(4) DEFAULT &#39;1&#39; COMMENT &#39;重复任务处理 0.任意一名员工完成任务，自动撤回其他员工的任务 1.所有下发了任务的员工要执行&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;) ENGINE=InnoDB AUTO_INCREMENT=119 DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop任务表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="-qIdUn-uNaCTuJ1rHyCA-5" vertex="1">
+          <mxGeometry x="30" width="520" height="420" as="geometry">
+            <mxRectangle width="520" height="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-15" target="-qIdUn-uNaCTuJ1rHyCA-29" edge="1">
@@ -120,30 +120,35 @@
             <mxRectangle width="520" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.003;exitY=0.438;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-33">
+        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.003;exitY=0.438;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2300" y="525" as="sourcePoint" />
-            <mxPoint x="-2630" y="860" as="targetPoint" />
+            <mxPoint x="-2263.29" y="567.7600000000002" as="sourcePoint" />
+            <mxPoint x="-2650" y="920" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-2300" y="528" />
-              <mxPoint x="-2300" y="740" />
-              <mxPoint x="-2629" y="740" />
-              <mxPoint x="-2629" y="860" />
+              <mxPoint x="-2263" y="570" />
+              <mxPoint x="-2305" y="570" />
+              <mxPoint x="-2305" y="740" />
+              <mxPoint x="-2634" y="740" />
+              <mxPoint x="-2634" y="860" />
+              <mxPoint x="-2650" y="860" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-10" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UYjbk8Sjyj7AEr8rDe-M-9">
+        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-10" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="UYjbk8Sjyj7AEr8rDe-M-9" vertex="1" connectable="0">
           <mxGeometry x="-0.9461" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-11" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UYjbk8Sjyj7AEr8rDe-M-9">
+        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-11" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="UYjbk8Sjyj7AEr8rDe-M-9" vertex="1" connectable="0">
           <mxGeometry x="0.904" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="-uQTKnzrdUiYRocdsecx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-29" target="-qIdUn-uNaCTuJ1rHyCA-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-29" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_user_task（sop用户任务表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-2260" y="280" width="570" height="490" as="geometry" />
+          <mxGeometry x="-2260" y="280" width="570" height="580" as="geometry" />
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="-qIdUn-uNaCTuJ1rHyCA-29" vertex="1">
           <mxGeometry y="30" width="570" height="30" as="geometry" />
@@ -159,20 +164,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-33" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="-qIdUn-uNaCTuJ1rHyCA-29" vertex="1">
-          <mxGeometry y="60" width="570" height="430" as="geometry" />
+          <mxGeometry y="60" width="570" height="520" as="geometry" />
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-34" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="-qIdUn-uNaCTuJ1rHyCA-33" vertex="1">
-          <mxGeometry width="30" height="430" as="geometry">
-            <mxRectangle width="30" height="430" as="alternateBounds" />
+          <mxGeometry width="30" height="520" as="geometry">
+            <mxRectangle width="30" height="520" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-35" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;Co8VdgC0moM7NCxHO37cvej0neh&quot;&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot; style=&quot;&quot;&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp;CREATE TABLE `sop_user_task` (&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`executor` varchar(64) NOT NULL COMMENT &#39;执行人(工号)&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`task_id` varchar(64) NOT NULL COMMENT &#39;任务名称&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`task_name` varchar(64) NOT NULL COMMENT &#39;任务名称&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;`task_category` tinyint(4) NOT NULL DEFAULT 0 COMMENT &#39;任务分类 0. sop 1.营销推广&#39;,&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`sub_task_id` varchar(64) NOT NULL COMMENT &#39;任务名称&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`sub_task_name` varchar(64) NOT NULL COMMENT &#39;子任务名称&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`business_scene` tinyint(4) NOT NULL COMMENT &#39;业务场景 1.家装 2.零售&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`business_type` tinyint(4) NOT NULL COMMENT &#39;业务类型 1.跟单任务 2.营销推广&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`trigger_scene` tinyint(4) NOT NULL COMMENT &#39;触达场景 1. 1v1聊天 2. 客户所在群聊&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`trigger_rule` varchar(64) NOT NULL COMMENT &#39;触达规则&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`start_time ` datetime NOT NULL COMMENT &#39;开始时间&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`end_time ` datetime NOT NULL COMMENT &#39;结束时间&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`business_no` varchar(64) NOT NULL COMMENT &#39;业务编号&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`execute_type` tinyint(4) NOT NULL COMMENT &#39;执行类型：0.逾期不可执行，1.逾期可执行&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`status` tinyint(4) NOT NULL COMMENT &#39;任务状态 0. 无效 1.未开始 2.进行中 3.已完成 4.已逾期 5.&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;`shop_code` varchar(64)&amp;nbsp;COMMENT &#39;门店code&#39;,&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;`shop_name` varchar(64)&amp;nbsp; COMMENT &#39;门店名称&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;`push_count` int(10)&amp;nbsp;NOT NULL&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;default 0 COMMENT &#39;预计下发数&#39;,&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;`push_status` int(10)&amp;nbsp;NOT NULL&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;default 0&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;COMMENT&amp;nbsp; &#39;发送状态 0. 未发送 1. 已发送&#39;,&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;`deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;PRIMARY KEY (`id`) USING BTREE&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop用户任务表&#39;;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="-qIdUn-uNaCTuJ1rHyCA-33" vertex="1">
-          <mxGeometry x="30" width="540" height="430" as="geometry">
-            <mxRectangle width="540" height="430" as="alternateBounds" />
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-35" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;Co8VdgC0moM7NCxHO37cvej0neh&quot;&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot; style=&quot;&quot;&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;CREATE TABLE `sop_user_task` (&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `executor` varchar(64) NOT NULL COMMENT &#39;执行人(工号)&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `task_id` bigint(20) NOT NULL COMMENT &#39;任务名称&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `task_name` varchar(64) NOT NULL COMMENT &#39;任务名称&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `sub_task_id` bigint(20) NOT NULL COMMENT &#39;任务名称&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `sub_task_name` varchar(64) NOT NULL COMMENT &#39;子任务名称&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `business_scene` tinyint(4) NOT NULL COMMENT &#39;业务场景 1.家装 2.零售&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `business_type` tinyint(4) NOT NULL COMMENT &#39;业务类型 1.跟单任务 2.营销推广&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `trigger_scene` tinyint(4) NOT NULL COMMENT &#39;触达场景 1. 1v1聊天 2. 客户所在群聊&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `trigger_rule` varchar(64) NOT NULL COMMENT &#39;触达规则&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `start_time` datetime NOT NULL COMMENT &#39;开始时间&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `end_time` datetime NOT NULL COMMENT &#39;结束时间&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `business_no` varchar(64) DEFAULT NULL COMMENT &#39;业务编号&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `execute_type` tinyint(4) NOT NULL COMMENT &#39;执行类型：0.逾期可执行，1.逾期不可执行&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `status` tinyint(4) NOT NULL COMMENT &#39;任务状态 0. 无效 1.未开始 2.进行中 3.已完成 4.已逾期&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `operator` varchar(64) DEFAULT NULL COMMENT &#39;操作人&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `time_over` tinyint(1) NOT NULL COMMENT &#39;是否超时 0.未超时 1.已超时&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `content` varchar(500) DEFAULT NULL COMMENT &#39;发送内容&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `task_category` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;任务分类 0. sop 1.营销推广&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `shop_code` varchar(64) DEFAULT NULL COMMENT &#39;门店code&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `shop_name` varchar(128) DEFAULT NULL COMMENT &#39;门店名称&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `push_count` int(10) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;预计下发数&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `push_status` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;推送状态 0. 未发送 1. 已发送&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `repeat_type` tinyint(4) DEFAULT &#39;1&#39; COMMENT &#39;重复任务处理 0.任意一名员工完成任务，自动撤回其他员工的任务 1.所有下发了任务的员工要执行&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; `batch_no` bigint(20) DEFAULT NULL COMMENT &#39;批次编号&#39;,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; KEY `idx_executor` (`executor`) USING BTREE,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; KEY `idx_task_id` (`task_id`) USING BTREE,&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;&amp;nbsp; KEY `idx_sub_task_id` (`sub_task_id`) USING BTREE&lt;/div&gt;&lt;div class=&quot;old-record-id-Ze5vdnJgfoNHqzxl2qscwm99n2c&quot;&gt;) ENGINE=InnoDB AUTO_INCREMENT=806 DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop用户任务表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="-qIdUn-uNaCTuJ1rHyCA-33" vertex="1">
+          <mxGeometry x="30" width="540" height="520" as="geometry">
+            <mxRectangle width="540" height="520" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-43" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_user_task_send_record（sop用户发送记录表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-2180" y="900" width="500" height="260" as="geometry" />
+          <mxGeometry x="-2190" y="1010" width="500" height="260" as="geometry" />
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-44" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="-qIdUn-uNaCTuJ1rHyCA-43" vertex="1">
           <mxGeometry y="30" width="500" height="30" as="geometry" />
@@ -200,26 +205,6 @@
             <mxRectangle width="470" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.488;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-33" target="-qIdUn-uNaCTuJ1rHyCA-43" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1710" y="935" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="-1980" y="729" />
-              <mxPoint x="-1980" y="790" />
-              <mxPoint x="-1975" y="790" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-51" value="id:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-qIdUn-uNaCTuJ1rHyCA-50" vertex="1" connectable="0">
-          <mxGeometry x="-0.6864" y="-6" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-52" value="user_task_id:n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-qIdUn-uNaCTuJ1rHyCA-50" vertex="1" connectable="0">
-          <mxGeometry x="0.5047" y="-3" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-26" target="-qIdUn-uNaCTuJ1rHyCA-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -239,7 +224,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-68" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_user_task_snapshot（sop用户任务快照信息）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-3000" y="377.5" width="550" height="265" as="geometry" />
+          <mxGeometry x="-3050" y="380" width="550" height="265" as="geometry" />
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-69" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="-qIdUn-uNaCTuJ1rHyCA-68" vertex="1">
           <mxGeometry y="30" width="550" height="30" as="geometry" />
@@ -278,48 +263,6 @@
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-97" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-qIdUn-uNaCTuJ1rHyCA-75" vertex="1" connectable="0">
           <mxGeometry x="0.5467" y="-3" relative="1" as="geometry">
             <mxPoint x="4" y="3" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-76" target="-qIdUn-uNaCTuJ1rHyCA-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-111" value="id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-qIdUn-uNaCTuJ1rHyCA-93" vertex="1" connectable="0">
-          <mxGeometry x="-0.9136" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-112" value="parent&lt;span style=&quot;border-color: var(--border-color); font-size: 12px; text-align: left; background-color: initial;&quot;&gt;_id: n&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-qIdUn-uNaCTuJ1rHyCA-93" vertex="1" connectable="0">
-          <mxGeometry x="0.854" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-76" value="&lt;span style=&quot;background-color: rgb(255, 204, 230);&quot;&gt;sop_welcome（sop欢迎语）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-650" y="-310" width="550" height="230.00000000000023" as="geometry" />
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-77" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="-qIdUn-uNaCTuJ1rHyCA-76" vertex="1">
-          <mxGeometry y="30" width="550" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-78" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="-qIdUn-uNaCTuJ1rHyCA-77" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-79" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" parent="-qIdUn-uNaCTuJ1rHyCA-77" vertex="1">
-          <mxGeometry x="30" width="520" height="30" as="geometry">
-            <mxRectangle width="520" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-80" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="-qIdUn-uNaCTuJ1rHyCA-76" vertex="1">
-          <mxGeometry y="60" width="550" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-81" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="-qIdUn-uNaCTuJ1rHyCA-80" vertex="1">
-          <mxGeometry width="30" height="170" as="geometry">
-            <mxRectangle width="30" height="170" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-82" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;CREATE TABLE `sop_welcome` (&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `name` varchar(64) NOT NULL COMMENT &#39;规则名称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `content` varchar(500) COMMENT &#39;文本内容&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop任务欢迎语&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="-qIdUn-uNaCTuJ1rHyCA-80" vertex="1">
-          <mxGeometry x="30" width="520" height="170" as="geometry">
-            <mxRectangle width="520" height="170" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-86" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_org_rel（sop组织关系表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -361,19 +304,6 @@
         </mxCell>
         <mxCell id="-qIdUn-uNaCTuJ1rHyCA-106" value="identity : 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-qIdUn-uNaCTuJ1rHyCA-94" vertex="1" connectable="0">
           <mxGeometry x="0.8849" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-80" target="-qIdUn-uNaCTuJ1rHyCA-86" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-107" value="id: 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-qIdUn-uNaCTuJ1rHyCA-95" vertex="1" connectable="0">
-          <mxGeometry x="-0.8341" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-108" value="identity : 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-qIdUn-uNaCTuJ1rHyCA-95" vertex="1" connectable="0">
-          <mxGeometry x="0.9037" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -419,41 +349,44 @@
             <mxRectangle width="490" height="210" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.27;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-qIdUn-uNaCTuJ1rHyCA-26" target="-qIdUn-uNaCTuJ1rHyCA-33" edge="1">
+        <mxCell id="-qIdUn-uNaCTuJ1rHyCA-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1470" y="220" />
-              <mxPoint x="-1470" y="435" />
+              <mxPoint x="-1470" y="240" />
+              <mxPoint x="-1470" y="410" />
+              <mxPoint x="-1690" y="410" />
             </Array>
+            <mxPoint x="-1230" y="240" as="sourcePoint" />
+            <mxPoint x="-1690" y="415" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-2" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_user_task_push_record（sop用户推送记录表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-2894" y="860" width="550" height="340" as="geometry" />
+        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-2" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;sop_user_task_push_record（sop用户推送记录表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-2920" y="920" width="550" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="UYjbk8Sjyj7AEr8rDe-M-2">
+        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="UYjbk8Sjyj7AEr8rDe-M-2" vertex="1">
           <mxGeometry y="30" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-4" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UYjbk8Sjyj7AEr8rDe-M-3">
+        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-4" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="UYjbk8Sjyj7AEr8rDe-M-3" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-5" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UYjbk8Sjyj7AEr8rDe-M-3">
+        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-5" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" parent="UYjbk8Sjyj7AEr8rDe-M-3" vertex="1">
           <mxGeometry x="30" width="520" height="30" as="geometry">
             <mxRectangle width="520" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="UYjbk8Sjyj7AEr8rDe-M-2">
-          <mxGeometry y="60" width="550" height="280" as="geometry" />
+        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="UYjbk8Sjyj7AEr8rDe-M-2" vertex="1">
+          <mxGeometry y="60" width="550" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-7" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UYjbk8Sjyj7AEr8rDe-M-6">
-          <mxGeometry width="30" height="280" as="geometry">
-            <mxRectangle width="30" height="280" as="alternateBounds" />
+        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-7" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="UYjbk8Sjyj7AEr8rDe-M-6" vertex="1">
+          <mxGeometry width="30" height="360" as="geometry">
+            <mxRectangle width="30" height="360" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-8" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;CREATE TABLE `sop_user_task_push_record&amp;nbsp;` (&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `user_task_id` bigint(20) NOT NULL COMMENT &#39;用户任务id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `attachment_info` text NOT NULL COMMENT &#39;附件快照json信息&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `executor` varchar(64) NOT NULL COMMENT &#39;执行人&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `messageId` varchar(64) NOT NULL COMMENT &#39;消息id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `status` varchar(64) NOT NULL COMMENT &#39;0. 已触发 1. 已执行 2.已取消&#39; ,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `success_count`&amp;nbsp;int(10) COMMENT &#39;已发送数量&#39; ,&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `fail_count2`&amp;nbsp;int(10)&amp;nbsp; COMMENT &#39;因客户不是好友导致发送失败数量&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&#39; ,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `fail_count3`&amp;nbsp;int(10)&amp;nbsp; &amp;nbsp;COMMENT &#39;因客户已经收到其他群发消息导致发送失败数量&#39; ,&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop用户任务发送记录表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UYjbk8Sjyj7AEr8rDe-M-6">
-          <mxGeometry x="30" width="520" height="280" as="geometry">
-            <mxRectangle width="520" height="280" as="alternateBounds" />
+        <mxCell id="UYjbk8Sjyj7AEr8rDe-M-8" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;CREATE TABLE `sop_user_task_push_record&amp;nbsp;` (&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `user_task_id` bigint(20) NOT NULL COMMENT &#39;用户任务id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `attachment_info` text NOT NULL COMMENT &#39;附件快照json信息&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `executor` varchar(64) NOT NULL COMMENT &#39;执行人&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `messageId` varchar(64) NOT NULL COMMENT &#39;消息id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `status` varchar(64) NOT NULL COMMENT &#39;0. 已触发 1. 已执行 2.已取消&#39; ,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `success_count`&amp;nbsp;int(10) COMMENT &#39;已发送数量&#39; ,&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `fail_count2`&amp;nbsp;int(10)&amp;nbsp; COMMENT &#39;因客户不是好友导致发送失败数量&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&#39; ,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `fail_count3`&amp;nbsp;int(10)&amp;nbsp; &amp;nbsp;COMMENT &#39;因客户已经收到其他群发消息导致发送失败数量&#39; ,&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt; `user_like_count`&amp;nbsp;int(10)&amp;nbsp; &amp;nbsp;COMMENT &#39;员工点赞数量&#39; ,&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff0000&quot;&gt;&amp;nbsp;`etx_user_like_count`&amp;nbsp;int(10)&amp;nbsp; &amp;nbsp;COMMENT &#39;客户点赞数量&#39; ,&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff0000&quot;&gt;&amp;nbsp;`user_comment_count&amp;nbsp;`&amp;nbsp;int(10)&amp;nbsp; &amp;nbsp;COMMENT &#39;员工评论数量&#39; ,&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp; `ext_user_comment&lt;span style=&quot;background-color: initial;&quot;&gt;_count`&amp;nbsp;int(10)&amp;nbsp; &amp;nbsp;COMMENT &#39;客户评论数量&#39; ,&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp; `push_type` tinyint(4)&amp;nbsp;NOT NULL DEFAULT &#39;0&#39;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;nbsp;COMMENT &#39;推送类型 0. 客户群发 1.朋友圈群发&#39; ,&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;sop用户任务发送记录表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="UYjbk8Sjyj7AEr8rDe-M-6" vertex="1">
+          <mxGeometry x="30" width="520" height="360" as="geometry">
+            <mxRectangle width="520" height="360" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
