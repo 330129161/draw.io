@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T06:20:26.056Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="CtFLSP9mm6PEQAjJJ5bD" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T06:22:20.028Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8maJHyWgkbEnVEboGePm" version="22.0.8" type="github">
   <diagram name="第 1 页" id="Y6YN0UifXXBLTrbvVRIB">
     <mxGraphModel dx="1193" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,7 +36,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9H6Dv00L7JDP5k7rZO34-46" value="营销任务创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="9H6Dv00L7JDP5k7rZO34-45" vertex="1" connectable="0">
+        <mxCell id="9H6Dv00L7JDP5k7rZO34-46" value="营销任务创建&lt;br&gt;(客户群发、朋友圈群发等)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="9H6Dv00L7JDP5k7rZO34-45" vertex="1" connectable="0">
           <mxGeometry x="-0.6597" y="26" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
