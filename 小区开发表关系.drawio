@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T09:11:26.110Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="aglnJgz7O5P_TBGoUlDG" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T09:17:47.524Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Po0x5KldE0y9JZkcu9Sk" version="22.1.8" type="github">
   <diagram name="第 1 页" id="2DZOpuADKw9ko30QVZN6">
-    <mxGraphModel dx="8142" dy="3222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6234" dy="1990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,7 +92,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c-emaLklX0RcFC97JPN--30" value="&lt;div style=&quot;text-align: left;&quot;&gt;community_customer_intent（&lt;span style=&quot;font-weight: 400; background-color: rgb(251, 251, 251);&quot;&gt;服务客户意向表&lt;/span&gt;&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-2640" y="200" width="740" height="640" as="geometry" />
+          <mxGeometry x="-2640" y="129.5" width="740" height="640" as="geometry" />
         </mxCell>
         <mxCell id="c-emaLklX0RcFC97JPN--31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="c-emaLklX0RcFC97JPN--30" vertex="1">
           <mxGeometry y="30" width="740" height="30" as="geometry" />
@@ -373,6 +373,17 @@
         <mxCell id="B33Yiamh9O9l-_BfC-cV-20" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="B33Yiamh9O9l-_BfC-cV-17" vertex="1" connectable="0">
           <mxGeometry x="0.8162" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AsS-K5Jl5-MvfET0K-AG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c-emaLklX0RcFC97JPN--13" target="c-emaLklX0RcFC97JPN--34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsS-K5Jl5-MvfET0K-AG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c-emaLklX0RcFC97JPN--41" target="c-emaLklX0RcFC97JPN--34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2830" y="1070" />
+              <mxPoint x="-2830" y="479" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
