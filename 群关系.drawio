@@ -1,9 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T02:29:40.666Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="22.1.16" etag="C6QVLfegEcEci2hWcprL" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T02:35:13.062Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="C0nPtHHcreYt3GHl44TU" version="22.1.16" type="github">
   <diagram name="第 1 页" id="zuE6cotmqWaTh0HGoSQI">
-    <mxGraphModel>
+    <mxGraphModel dx="4671" dy="2049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-1" value="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;wk_wxwork.corp_dept_user_rel（企微群表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2720" y="-760" width="510" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-1">
+          <mxGeometry y="30" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-3" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-2">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-4" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-2">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-1">
+          <mxGeometry y="60" width="510" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-6" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-5">
+          <mxGeometry width="30" height="350" as="geometry">
+            <mxRectangle width="30" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-7" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;CREATE TABLE `corp_group_info` (&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `corp_id` varchar(64) NOT NULL COMMENT &#39;企业微信企业ID&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `chat_id` varchar(64) NOT NULL COMMENT &#39;群聊id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `name` varchar(64) DEFAULT &#39;未命名群聊&#39; COMMENT &#39;群名称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `owner` varchar(64) NOT NULL COMMENT &#39;群主id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `notice` text COMMENT &#39;群公告&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `status` tinyint(4) DEFAULT &#39;0&#39; COMMENT &#39;群状态：0.无效，1.有效&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `follow_status` tinyint(4) DEFAULT &#39;0&#39; COMMENT &#39;群跟进状态：0 - 跟进人正常、1 - 跟进人离职、2 - 离职继承中、3 - 离职继承完成&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_type` tinyint(4) DEFAULT &#39;1&#39; COMMENT &#39;群创建类型:1手动建群，2一键建群&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `qrcode` varchar(255) DEFAULT NULL COMMENT &#39;群二维码&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `group_create_time` datetime NOT NULL COMMENT &#39;群创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `event_time` datetime NOT NULL COMMENT &#39;事件时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; UNIQUE KEY `idx_corp_chat_id` (`corp_id`,`chat_id`)&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;) ENGINE=InnoDB AUTO_INCREMENT=2143 DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;企微群表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-5">
+          <mxGeometry x="30" width="480" height="350" as="geometry">
+            <mxRectangle width="480" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PtrcrmeNgPHXPf14SZmX-8" target="PtrcrmeNgPHXPf14SZmX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-27" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PtrcrmeNgPHXPf14SZmX-23">
+          <mxGeometry x="0.6079" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-28" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PtrcrmeNgPHXPf14SZmX-23">
+          <mxGeometry x="-0.6619" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-8" value="corp_group_business_rel&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;（企微群业务关联表）&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2720" y="-170" width="510" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-9" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-8">
+          <mxGeometry y="30" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-10" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-9">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-11" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-9">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-12" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-8">
+          <mxGeometry y="60" width="510" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-13" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-12">
+          <mxGeometry width="30" height="350" as="geometry">
+            <mxRectangle width="30" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-14" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;CREATE TABLE `corp_group_business_rel` (&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `chat_id` varchar(64) NOT NULL COMMENT &#39;群聊id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `template_id` bigint(20) DEFAULT NULL COMMENT &#39;模板id，对应corp_group_template主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_no` varchar(64) NOT NULL COMMENT &#39;业务单号&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_method` tinyint(4) unsigned NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;建群方式(1:一键建群,2:手动绑定群聊,3:自动绑定群聊)&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_scene` tinyint(4) NOT NULL DEFAULT &#39;1&#39; COMMENT &#39;场景：1.家装，2.零售，3.小区 4.企事业大客户&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `channels_code` varchar(64) DEFAULT NULL COMMENT &#39;获客渠道code&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `channels_name` varchar(64) DEFAULT NULL COMMENT &#39;获客渠道name,如门店获客-门店营销-自然客流&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_process_code` varchar(64) DEFAULT NULL COMMENT &#39;进程code&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_process_name` varchar(64) DEFAULT NULL COMMENT &#39;进程name,如信息补充/量房阶段/...&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `decoration_type_code` varchar(64) DEFAULT NULL COMMENT &#39;装修类型code&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `decoration_type_name` varchar(64) DEFAULT NULL COMMENT &#39;装修类型name,如整装/...&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_store_id` varchar(64) DEFAULT NULL COMMENT &#39;业务单所在门店id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_store_name` varchar(64) DEFAULT NULL COMMENT &#39;业务单所在门店name&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_store_region_code` varchar(64) DEFAULT NULL COMMENT &#39;业务门店所在区域id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_store_region_name` varchar(64) DEFAULT NULL COMMENT &#39;业务门店所在区域name&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_user_ids` varchar(500) DEFAULT NULL COMMENT &#39;业务相关的员工ids&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_user_names` varchar(500) DEFAULT NULL COMMENT &#39;业务相关的员工names&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `business_create_time` datetime DEFAULT NULL COMMENT &#39;业务单创建时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间（业务单绑定群时间）&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; UNIQUE KEY `idx_dispatch_chat_id` (`chat_id`,`business_no`) USING BTREE&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;) ENGINE=InnoDB AUTO_INCREMENT=403 DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;群业务关系表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-12">
+          <mxGeometry x="30" width="480" height="350" as="geometry">
+            <mxRectangle width="480" height="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PtrcrmeNgPHXPf14SZmX-15" target="PtrcrmeNgPHXPf14SZmX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-25" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PtrcrmeNgPHXPf14SZmX-24">
+          <mxGeometry x="-0.8815" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-26" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PtrcrmeNgPHXPf14SZmX-24">
+          <mxGeometry x="0.8042" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-15" value="corp_group_activity_rel&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;(小区群活动表)&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;labelBackgroundColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="-135" width="490" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-16" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-15">
+          <mxGeometry y="30" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-17" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-16">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-18" value="`ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增ID&#39;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-16">
+          <mxGeometry x="30" width="460" height="30" as="geometry">
+            <mxRectangle width="460" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-15">
+          <mxGeometry y="60" width="490" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-20" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-19">
+          <mxGeometry width="30" height="280" as="geometry">
+            <mxRectangle width="30" height="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-21" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;CREATE TABLE `corp_group_activity_rel` (&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT &#39;自增主键&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `chat_id` varchar(64) NOT NULL COMMENT &#39;群聊id&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `activity_no` varchar(64) DEFAULT NULL COMMENT &#39;活动编号&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `activity_name` varchar(64) DEFAULT NULL COMMENT &#39;活动名称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `village_code` varchar(64) NOT NULL COMMENT &#39;小区code&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `village_name` varchar(64) DEFAULT NULL COMMENT &#39;小区名称&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `update_time` datetime NOT NULL COMMENT &#39;更新时间&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `create_time` datetime NOT NULL COMMENT &#39;创建时间（业务单绑定群时间）&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `deleted` tinyint(1) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否删除&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `bind_type` tinyint(4) NOT NULL COMMENT &#39;绑定方式 0.手动绑定 1.自动绑定&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; `rel_type` varchar(255) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;0.活动 1.小区&#39;,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`) USING BTREE,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; KEY `idx_activity_no_chat_id` (`activity_no`,`chat_id`) USING BTREE,&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&amp;nbsp; KEY `idx_village_code_chat_id` (`village_code`,`chat_id`) USING BTREE&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;) ENGINE=InnoDB AUTO_INCREMENT=71 DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT=&#39;群活动关联表&#39;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PtrcrmeNgPHXPf14SZmX-19">
+          <mxGeometry x="30" width="460" height="280" as="geometry">
+            <mxRectangle width="460" height="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PtrcrmeNgPHXPf14SZmX-12" target="PtrcrmeNgPHXPf14SZmX-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-29" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PtrcrmeNgPHXPf14SZmX-22">
+          <mxGeometry x="-0.6741" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtrcrmeNgPHXPf14SZmX-30" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PtrcrmeNgPHXPf14SZmX-22">
+          <mxGeometry x="0.691" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
